@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '沖縄方言',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF82AAE3)),
         useMaterial3: true,
       ),
@@ -41,19 +40,25 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          children: [ // childrenプロパティを追加
-            ElevatedButton(
-              onPressed: () {
-                // quiz_pageに遷移
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const QuizPage()),
-                );
-              },
-              child: const Text('ボタン'),
-            ),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Column(
+            children: [ // childrenプロパティを追加
+              ElevatedButton(
+          style: ElevatedButton.styleFrom(
+          minimumSize: Size(MediaQuery.of(context).size.width - 0, 50), // 左右一杯
+                 ),
+                onPressed: () {
+                  // quiz_pageに遷移
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const QuizPage()),
+                  );
+                },
+                child: const Text('ボタン'),
+              ),
+            ],
+          ),
         ),
       ),
     );

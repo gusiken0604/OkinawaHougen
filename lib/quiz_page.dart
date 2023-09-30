@@ -17,7 +17,13 @@ class QuizPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Quiz Page'),
+        //メインページに戻るボタン
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: const Text('戻る'),
+        ),
       ),
     );
   }
