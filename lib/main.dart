@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'quiz_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +41,20 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(),
+        child: Column(
+          children: [ // childrenプロパティを追加
+            ElevatedButton(
+              onPressed: () {
+                // quiz_pageに遷移
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const QuizPage()),
+                );
+              },
+              child: const Text('ボタン'),
+            ),
+          ],
+        ),
       ),
     );
   }
