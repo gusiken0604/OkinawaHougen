@@ -35,19 +35,29 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFBFEAF5), // ここで背景色を指定
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: TextStyle(
+            fontSize: 40,
+          ),
+        ),
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(20),
           child: Column(
-            children: [ // childrenプロパティを追加
+            children: [
+              // childrenプロパティを追加
               ElevatedButton(
-          style: ElevatedButton.styleFrom(
-          minimumSize: Size(MediaQuery.of(context).size.width - 0, 50), // 左右一杯
-                 ),
+                style: ElevatedButton.styleFrom(
+                  //ボタンの色を変える
+                  backgroundColor: Color(0xFF91D8E4),
+                  minimumSize:
+                      Size(MediaQuery.of(context).size.width - 0, 100), // 左右一杯
+                ),
                 onPressed: () {
                   // quiz_pageに遷移
                   Navigator.push(
@@ -55,7 +65,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     MaterialPageRoute(builder: (context) => const QuizPage()),
                   );
                 },
-                child: const Text('ボタン'),
+                child: const Text('沖縄方言→日本語',
+                  style: TextStyle(
+                    //色を変える//91D8E4
+
+                    //color: Color(91D8E4),
+                    fontSize: 40,
+                  ),
+                ),
               ),
             ],
           ),
