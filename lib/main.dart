@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   // quiz_pageに遷移
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const QuizPage()),
+                    MaterialPageRoute(builder: (context) => QuizPage()),
                   );
                 },
                 child: const Text('沖縄方言→日本語',

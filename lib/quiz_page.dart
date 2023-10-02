@@ -17,7 +17,7 @@ Future<void> initDb() async {
   if (!exists) {
     // DBが存在しない場合の処理
     // アプリケーションを最初に起動したときのみ発生するはずです
-    print("Creating new copy from asset");
+    print("アプリケーションを最初に起動したときのみ発生Creating new copy from asset");
 // 親ディレクトリが存在することを確認する
     try {
       await Directory(dirname(path)).create(recursive: true);
@@ -31,7 +31,7 @@ Future<void> initDb() async {
     await File(path).writeAsBytes(bytes, flush: true);
   } else {
     // DBが存在する場合の処理
-    print("Opening existing database");
+    print("DBが存在する場合の処理Opening existing database");
   }
   // DBファイルを開く
   db = await openDatabase(path, readOnly: true);
