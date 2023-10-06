@@ -53,26 +53,6 @@ Future<List<Map<String, dynamic>>> fetchDataFromDatabase() async {
   return maps;
 }
 
-// Future<String> fetchDataFromDatabase() async {
-//   if (db != null) {
-//     final List<Map<String, dynamic>> maps = await db!.query('newHougen1001');
-//     print("取得したデータ: $maps");
-//     if (maps.isNotEmpty) {
-//       print("取得した最初のレコードのカラム名: ${maps[0].keys}");  // この行を追加
-//
-//       String data = "";
-//       for (var i = 0; i < maps.length; i++) {
-//         data += "id: ${maps[i]['id'] ?? 'null'}, hougen: ${maps[i]['hougen'] ?? 'null'}\n";
-//       }
-//       return data;
-//     } else {
-//       return "データベースは空です";
-//     }
-//   } else {
-//     return "データベースが初期化されていません";
-//   }
-// }
-
 class QuizPage extends StatefulWidget {
   @override
   _QuizPageState createState() => _QuizPageState();
@@ -94,19 +74,6 @@ class _QuizPageState extends State<QuizPage> {
     });
   }
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   initDb().then((_) async { // initDbが完了したら
-  //     String fetchedData = await fetchDataFromDatabase(); // データベースを読む
-  //     print("UIに表示するデータ: $fetchedData");  // この行を追加
-  //     setState(() {
-  //       databaseData = fetchedData; // 状態を更新
-  //     });
-  //   }).catchError((error) {
-  //     print("initState エラー: $error");
-  //   });
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -125,8 +92,11 @@ class _QuizPageState extends State<QuizPage> {
       ),
       body: databaseData == null
           ? CircularProgressIndicator()
-          : ListView.builder(
+          : ListView.separated(
         itemCount: databaseData!.length,
+        separatorBuilder: (context, index) => Divider(
+          color: Colors.grey,
+        ),
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(databaseData![index]['hougen'] ?? ''),
@@ -137,30 +107,3 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
-
-//   String? databaseData; // データベースのデータを格納する変数
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         backgroundColor: Theme
-//             .of(context)
-//             .colorScheme
-//             .inversePrimary,
-//         title: Text(
-//           '沖縄方言',
-//           style: TextStyle(
-//             fontSize: 40,
-//           ),
-//         ),
-//       ),
-//       body: databaseData == null ?
-//       CircularProgressIndicator() : // ロード中
-//       Text(
-//         'データ:\n$databaseData',
-//         style: TextStyle(fontSize: 16),
-//       ),
-//     );
-//   }
-// }
