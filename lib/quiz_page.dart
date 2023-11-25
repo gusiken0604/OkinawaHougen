@@ -76,26 +76,61 @@ class QuizPageState extends State<QuizPage> {
   // ローマ字からカタカナへのマッピング
   
 
-  String convertToKatakana(String input) {
-    StringBuffer output = StringBuffer();
-    for (var i = 0; i < input.length; i++) {
-      String current = input[i];
+  // String convertToKatakana(String input) {
+  //   StringBuffer output = StringBuffer();
+  //   for (var i = 0; i < input.length; i++) {
+  //     String current = input[i];
 
-      if (i < input.length - 1) {
-        String next = input[i + 1];
-        String combined = "$current$next";
+  //     if (i < input.length - 1) {
+  //       String next = input[i + 1];
+  //       String combined = "$current$next";
 
-        if (romajiToKatakana.containsKey(combined)) {
-          output.write(romajiToKatakana[combined]);
-          i++; // 2文字分処理したのでインデックスを1つ進める
-          continue;
-        }
+  //       if (romajiToKatakana.containsKey(combined)) {
+  //         output.write(romajiToKatakana[combined]);
+  //         i++; // 2文字分処理したのでインデックスを1つ進める
+  //         continue;
+  //       }
+  //     }
+
+  //     output.write(romajiToKatakana[current] ?? current);
+  //   }
+  //   return output.toString();
+  // }
+String convertToKatakana(String input) {
+  StringBuffer output = StringBuffer();
+  for (var i = 0; i < input.length; i++) {
+    String current = input[i];
+
+    // 3文字の組み合わせをチェック
+    if (i < input.length - 2) {
+      String next = input.substring(i, i + 3);
+      if (romajiToKatakana.containsKey(next)) {
+        output.write(romajiToKatakana[next]);
+        i += 2; // 3文字分処理したのでインデックスを2つ進める
+        continue;
       }
-
-      output.write(romajiToKatakana[current] ?? current);
     }
-    return output.toString();
+
+    // 2文字の組み合わせをチェック
+    if (i < input.length - 1) {
+      String next = input.substring(i, i + 2);
+      if (romajiToKatakana.containsKey(next)) {
+        output.write(romajiToKatakana[next]);
+        i++; // 2文字分処理したのでインデックスを1つ進める
+        continue;
+      }
+    }
+
+    // 単一文字の変換
+    if (romajiToKatakana.containsKey(current)) {
+      output.write(romajiToKatakana[current]);
+    }
   }
+  return output.toString();
+}
+
+
+
 
   Future<List<Map<String, dynamic>>> fetchDataFromDatabase() async {
     List<Map<String, dynamic>> maps = [];
