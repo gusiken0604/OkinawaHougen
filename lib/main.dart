@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '沖縄方言',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF82AAE3)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF82AAE3)),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: '沖縄方言'),
@@ -35,12 +35,12 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFBFEAF5), // ここで背景色を指定
+      backgroundColor: const Color(0xFFBFEAF5), // ここで背景色を指定
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(
           widget.title,
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 40,
           ),
         ),
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   //ボタンの色を変える
-                  backgroundColor: Color(0xFF91D8E4),
+                  backgroundColor: const Color(0xFF91D8E4),
                   minimumSize:
                       Size(MediaQuery.of(context).size.width - 0, 100), // 左右一杯
                 ),
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   // quiz_pageに遷移
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => QuizPage()),
+                    MaterialPageRoute(builder: (context) => const QuizPage()),
                   );
                 },
                 child: const Text('沖縄方言→日本語',
