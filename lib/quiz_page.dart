@@ -74,28 +74,6 @@ class QuizPageState extends State<QuizPage> {
 
   String selectedKana = ''; //選択されている50音の文字を保持
   // ローマ字からカタカナへのマッピング
-  
-
-  // String convertToKatakana(String input) {
-  //   StringBuffer output = StringBuffer();
-  //   for (var i = 0; i < input.length; i++) {
-  //     String current = input[i];
-
-  //     if (i < input.length - 1) {
-  //       String next = input[i + 1];
-  //       String combined = "$current$next";
-
-  //       if (romajiToKatakana.containsKey(combined)) {
-  //         output.write(romajiToKatakana[combined]);
-  //         i++; // 2文字分処理したのでインデックスを1つ進める
-  //         continue;
-  //       }
-  //     }
-
-  //     output.write(romajiToKatakana[current] ?? current);
-  //   }
-  //   return output.toString();
-  // }
 String convertToKatakana(String input) {
   StringBuffer output = StringBuffer();
   for (var i = 0; i < input.length; i++) {
@@ -129,9 +107,6 @@ String convertToKatakana(String input) {
   return output.toString();
 }
 
-
-
-
   Future<List<Map<String, dynamic>>> fetchDataFromDatabase() async {
     List<Map<String, dynamic>> maps = [];
     if (db != null) {
@@ -157,7 +132,7 @@ String convertToKatakana(String input) {
       katakanaToRomaji[value] = key;
     });
     // デバッグ: katakanaToRomaji が正しく初期化されているか確認
-    print("katakanaToRomaji: $katakanaToRomaji");
+    //print("katakanaToRomaji: $katakanaToRomaji");
 
     initDb().then((_) async {
       List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase();
@@ -171,48 +146,91 @@ String convertToKatakana(String input) {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text(
-          '沖縄方言',
-          style: TextStyle(
-            fontSize: 40,
-          ),
-        ),
+  return Scaffold(
+    appBar: AppBar(
+      backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+      title: const Text(
+        '沖縄方言',
+        style: TextStyle(fontSize: 40),
       ),
-      body: Row(
-        children: [
-          Expanded(
-            child: databaseData == null
-                ? const Center(child: CircularProgressIndicator())
-                : ListView.separated(
-                    controller: _controller, // 追加
-                    itemCount: databaseData!.length,
-                    separatorBuilder: (context, index) => const Divider(
-                      color: Colors.grey,
-                    ),
-                    itemBuilder: (context, index) {
-                      return ListTile(
-                        title: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(convertToKatakana(
-                                databaseData![index]['hougen'] ?? '')),
-                            Text(
-                              'ID: ${databaseData![index]['id'].toString()}',
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                color: Colors.grey,
+    ),
+    body: Row(
+      children: [
+        Expanded(
+          child: databaseData == null
+              ? const Center(child: CircularProgressIndicator())
+              : ListView.separated(
+                  controller: _controller,
+                  itemCount: databaseData!.length,
+                  separatorBuilder: (context, index) => const Divider(color: Colors.grey),
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(convertToKatakana(databaseData![index]['hougen'] ?? '')),
+                              Text(
+                                'ID: ${databaseData![index]['id'].toString()}',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey,
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                        subtitle: Text(databaseData![index]['japanese'] ?? ''),
-                      );
-                    },
-                  ),
-          ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      subtitle: Text(databaseData![index]['japanese'] ?? ''),
+                    );
+                  },
+                ),
+        ),
+//  Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+//         title: const Text(
+//           '沖縄方言',
+//           style: TextStyle(
+//             fontSize: 40,
+//           ),
+//         ),
+//       ),
+//       body: Row(
+//         children: [
+//           Expanded(
+//             child: databaseData == null
+//                 ? const Center(child: CircularProgressIndicator())
+//                 : ListView.separated(
+//                     controller: _controller, // 追加
+//                     itemCount: databaseData!.length,
+//                     separatorBuilder: (context, index) => const Divider(
+//                       color: Colors.grey,
+//                     ),
+//                     itemBuilder: (context, index) {
+//                       return ListTile(
+//                         title: Row(
+//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                           children: [
+//                             Text(convertToKatakana(
+//                                 databaseData![index]['hougen'] ?? '')),
+//                             Text(
+//                               'ID: ${databaseData![index]['id'].toString()}',
+//                               style: const TextStyle(
+//                                 fontWeight: FontWeight.bold,
+//                                 color: Colors.grey,
+//                               ),
+//                             ),
+//                           ],
+//                         ),
+//                         subtitle: Text(databaseData![index]['japanese'] ?? ''),
+//                       );
+//                     },
+//                   ),
+//           ),
           Column(
             children: gojuonList.map((kana) {
               return GestureDetector(
@@ -256,5 +274,5 @@ String convertToKatakana(String input) {
         ],
       ),
     );
-  }
+  } 
 }
