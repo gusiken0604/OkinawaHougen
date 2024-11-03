@@ -1,19 +1,22 @@
-# okinawahougen
+# 沖縄方言うちなーぐちアプリ
 
-A new Flutter project.
+## プロジェクト概要
+このアプリは、ユーザーが日常のタスクを簡単に管理できるようにするために作成されました。シンプルで直感的なインターフェースにより、技術に詳しくないユーザーでも効率的にタスクを整理できることを目指しています。
 
-## Getting Started
+## なぜこのアプリを作ったか
+日々の仕事や学習で、タスク管理の必要性を感じていましたが、既存のツールが複雑すぎたり、機能が多すぎて使いにくいと感じていました。そのため、誰でもすぐに使えるシンプルなタスクリストアプリが必要だと感じ、開発を行いました。
 
-This project is a starting point for a Flutter application.
+## 使用技術
+- Flutter
+- Firebase
+- REST API
+- SQLite
 
-A few resources to get you started if this is your first Flutter project:
+## 主な機能
+- タスクの追加、削除、編集
+- タスクの優先度設定
+- タスクの完了チェック機能
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-メインカラー
-- https://colorhunt.co/palette/82aae391d8e4bfeaf5eafdfc
+## 今後の改善点
+- 通知機能の追加
+- UIの改善
