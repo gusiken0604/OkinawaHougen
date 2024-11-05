@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'gojuon_list.dart';
 import 'romaji_to_katakana.dart';
 
-//コードについて初心者にもわかりやすくコメントで解説してください
+
 Database? db; // データベースを保持するためのグローバル変数
 
 Future<void> initDb() async {
@@ -55,6 +55,8 @@ Future<List<Map<String, dynamic>>> fetchDataFromDatabase() async {
   List<Map<String, dynamic>> maps = [];
   if (db != null) {
     maps = await db!.query('newHougen1001');
+
+
   }
   return maps;
 }
@@ -133,16 +135,36 @@ String convertToKatakana(String input) {
     });
     // デバッグ: katakanaToRomaji が正しく初期化されているか確認
     //print("katakanaToRomaji: $katakanaToRomaji");
+      initDb().then((_) async {
+    List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase();
 
-    initDb().then((_) async {
-      List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase();
+    // データが取得できた場合のみ最初の行を削除
+    if (fetchedData.isNotEmpty) {
       setState(() {
-        databaseData = fetchedData;
+        // 最初の行を削除したデータで更新
+        databaseData = fetchedData.sublist(1);
       });
-    }).catchError((error) {
-      print("initState エラー: $error");
-    });
-  }
+    } else {
+      // データが空の場合もセットし、空リストで表示
+      setState(() {
+        databaseData = [];
+      });
+    }
+  }).catchError((error) {
+    print("initState エラー: $error");
+  });
+}
+
+  //   initDb().then((_) async {
+  //     List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase();
+
+  //     setState(() {
+  //       databaseData = fetchedData;
+  //     });
+  //   }).catchError((error) {
+  //     print("initState エラー: $error");
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -161,9 +183,10 @@ String convertToKatakana(String input) {
               ? const Center(child: CircularProgressIndicator())
               : ListView.separated(
                   controller: _controller,
-                  itemCount: databaseData!.length,
+                  itemCount: databaseData!.length - 1,
                   separatorBuilder: (context, index) => const Divider(color: Colors.grey),
                   itemBuilder: (context, index) {
+                     final actualIndex = index + 1; // インデックスを1つずらして最初の行をスキップ
                     return ListTile(
                       title: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -173,7 +196,8 @@ String convertToKatakana(String input) {
                             children: [
                               Text(convertToKatakana(databaseData![index]['hougen'] ?? '')),
                               Text(
-                                'ID: ${databaseData![index]['id'].toString()}',
+                                //'ID: ${databaseData![index]['id'].toString()}',
+                                 'ID: ${databaseData![index]['id']}', // データベースから取得したIDを直接表示
                                 style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                   color: Colors.grey,
@@ -235,10 +259,10 @@ String convertToKatakana(String input) {
             children: gojuonList.map((kana) {
               return GestureDetector(
                 onTap: () async {
-                  print("kana: $kana");
+                  // print("kana: $kana");
                   // カタカナからローマ字に変換
                   String romaji = katakanaToRomaji[kana] ?? kana;
-                  print("romaji: $romaji"); // デバッグ出力
+                  // print("romaji: $romaji"); // デバッグ出力
 
                   int targetIndex = databaseData!.indexWhere((element) {
                     String hougenRomaji = element['hougen'].toString();
