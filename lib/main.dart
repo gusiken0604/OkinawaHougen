@@ -70,7 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     //色を変える//91D8E4
 
                     //color: Color(91D8E4),
-                    fontSize: 40,
+                    fontSize: 30,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
               ),
