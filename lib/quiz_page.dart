@@ -255,46 +255,46 @@ String convertToKatakana(String input) {
 //                     },
 //                   ),
 //           ),
-          Column(
-            children: gojuonList.map((kana) {
-              return GestureDetector(
-                onTap: () async {
-                  // print("kana: $kana");
-                  // カタカナからローマ字に変換
-                  String romaji = katakanaToRomaji[kana] ?? kana;
-                  // print("romaji: $romaji"); // デバッグ出力
+          // Column(
+          //   children: gojuonList.map((kana) {
+          //     return GestureDetector(
+          //       onTap: () async {
+          //         // print("kana: $kana");
+          //         // カタカナからローマ字に変換
+          //         String romaji = katakanaToRomaji[kana] ?? kana;
+          //         // print("romaji: $romaji"); // デバッグ出力
 
-                  int targetIndex = databaseData!.indexWhere((element) {
-                    String hougenRomaji = element['hougen'].toString();
-                    String hougenKatakana = convertToKatakana(hougenRomaji);
-                    String firstCharOfElement = hougenKatakana.substring(0, 1);
-                    String firstCharOfKana =
-                        kana.substring(0, 1); // タップされた50音の最初の文字
+          //         int targetIndex = databaseData!.indexWhere((element) {
+          //           String hougenRomaji = element['hougen'].toString();
+          //           String hougenKatakana = convertToKatakana(hougenRomaji);
+          //           String firstCharOfElement = hougenKatakana.substring(0, 1);
+          //           String firstCharOfKana =
+          //               kana.substring(0, 1); // タップされた50音の最初の文字
 
-                    return firstCharOfElement == firstCharOfKana; // 最初の1文字だけで比較
-                  });
+          //           return firstCharOfElement == firstCharOfKana; // 最初の1文字だけで比較
+          //         });
 
-                  if (targetIndex != -1) {
-                    _controller.jumpTo(_controller.position.minScrollExtent);
-                    await Future.delayed(const Duration(milliseconds: 200));
-                    _controller
-                        .jumpTo(targetIndex * 56.0); // 56.0は1行あたりの高さを指定しています。
-                  } else {
-                    print("Target not found");
-                  }
-                },
-                child: SizedBox(
-                  height: 15.0, // 高さを20に設定
-                  child: Text(
-                    kana,
-                    style: const TextStyle(
-                      fontSize: 12.0, // フォントサイズを12に設定
-                    ),
-                  ),
-                ),
-              );
-            }).toList(),
-          ),
+          //         if (targetIndex != -1) {
+          //           _controller.jumpTo(_controller.position.minScrollExtent);
+          //           await Future.delayed(const Duration(milliseconds: 200));
+          //           _controller
+          //               .jumpTo(targetIndex * 56.0); // 56.0は1行あたりの高さを指定しています。
+          //         } else {
+          //           print("Target not found");
+          //         }
+          //       },
+          //       child: SizedBox(
+          //         height: 15.0, // 高さを20に設定
+          //         child: Text(
+          //           kana,
+          //           style: const TextStyle(
+          //             fontSize: 12.0, // フォントサイズを12に設定
+          //           ),
+          //         ),
+          //       ),
+          //     );
+          //   }).toList(),
+          // ),
         ],
       ),
     );
