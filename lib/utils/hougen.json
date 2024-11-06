@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "hougen": "ワチクサア",
+        "japanese": "朝",
+        "category": "挨拶",
+        "usage_example": "朝の挨拶として『ワチクサア』と言います。",
+        "last_updated": "2024-01-01"
+    },
+    {
+        "id": 2,
+        "hougen": "ウフニバア",
+        "japanese": "大きな庭",
+        "category": "場所",
+        "usage_example": "『ウフニバア』は庭が大きいことを表します。",
+        "last_updated": "2024-01-10"
+    }
+]
