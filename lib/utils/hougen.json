@@ -14,5 +14,14 @@
         "category": "場所",
         "usage_example": "『ウフニバア』は庭が大きいことを表します。",
         "last_updated": "2024-01-10"
+    },
+    {
+        "id": 1001,
+        "hougen": "新しい方言",
+        "japanese": "新しい日本語訳",
+        "category": "例：挨拶",
+        "usage_example": "例：新しい方言の使用例。",
+        "last_updated": "2024-02-01"
+        
     }
 ]
