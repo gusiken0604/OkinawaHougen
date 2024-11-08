@@ -4,7 +4,7 @@
         "hougen": "ワチクサア",
         "japanese": "朝",
         "category": "挨拶",
-        "usage_example": "朝の挨拶として『ワチクサア』と言います。",
+        "usage_example": "朝の挨拶として『ワチクサア』と言います。"
         
     },
     {
@@ -12,7 +12,7 @@
         "hougen": "ウフニバア",
         "japanese": "大きな庭",
         "category": "場所",
-        "usage_example": "『ウフニバア』は庭が大きいことを表します。",
+        "usage_example": "『ウフニバア』は庭が大きいことを表します。"
        
     },
     {
@@ -20,7 +20,7 @@
         "hougen": "新しい方言",
         "japanese": "新しい日本語訳",
         "category": "例：挨拶",
-        "usage_example": "例：新しい方言の使用例。",
+        "usage_example": "例：新しい方言の使用例。"
       
         
     }
