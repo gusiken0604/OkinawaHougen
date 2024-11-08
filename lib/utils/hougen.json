@@ -1,36 +1,44 @@
 [
     {
-        "id": 1,
-        "hougen": "ワチクサア",
-        "japanese": "朝",
-        "category": "挨拶",
-        "usage_example": "朝の挨拶として『ワチクサア』と言います。"
-        
+      "id": 1,
+      "hougen": "はいさい / はいたい",
+      "japanese": "こんにちは",
+      "category": "挨拶",
+      "usage_example": "男性が用いるのが「はいさい」、女性が用いるのは「はいたい」"
     },
     {
-        "id": 2,
-        "hougen": "ウフニバア",
-        "japanese": "大きな庭",
-        "category": "場所",
-        "usage_example": "『ウフニバア』は庭が大きいことを表します。"
-       
+      "id": 2,
+      "hougen": "めんそーれ",
+      "japanese": "いらっしゃい",
+      "category": "挨拶",
+      "usage_example": "いる。来る。行くの敬語。"
     },
     {
-        "id": 1001,
-        "hougen": "新しい方言",
-        "japanese": "新しい日本語訳",
-        "category": "例：挨拶",
-        "usage_example": "例：新しい方言の使用例。"
-      
-        
+      "id": 3,
+      "hougen": "ぐぶりーさびら",
+      "japanese": "ごめんください。失礼します。",
+      "category": "挨拶",
+      "usage_example": "他家を訪ねるとき、他人と別れるとき、人前を通るときなど"
     },
-    
-        {
-          "id": 13,
-          "hougen": "ハイサイ",
-          "japanese": "こんにちは",
-          "category": "挨拶",
-          "usage_example": "ハイサイぐスーよ"
-        }
-      
-]
+    {
+      "id": 4,
+      "hougen": "はじみてぃやいびーん",
+      "japanese": "はじめまして",
+      "category": "挨拶",
+      "usage_example": "目下に対しては、はじみてぃやー"
+    },
+    {
+      "id": 5,
+      "hougen": "ちゅーうぅがなびら",
+      "japanese": "こんにちは",
+      "category": "挨拶",
+      "usage_example": "目上に対する挨拶言葉"
+    },
+    {
+      "id": 6,
+      "hougen": "にふぇーれーびる",
+      "japanese": "ありがとうございます",
+      "category": "挨拶",
+      "usage_example": "感謝の意を表す"
+    }
+  ]
