@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:sqflite/sqflite.dart';
 import '../utils/db_helper.dart'; // db_helper.dart をインポート
-import '../utils/romaji_to_katakana.dart'; // romaji_to_katakana.dart をインポート
 
 class QuizPage extends StatefulWidget {
   const QuizPage({Key? key}) : super(key: key);
@@ -15,33 +12,46 @@ class QuizPageState extends State<QuizPage> {
   final ScrollController _controller = ScrollController();
   List<Map<String, dynamic>>? databaseData;
   List<Map<String, dynamic>> filteredData = [];
-  final Map<String, String> katakanaToRomaji = {};
+
+  bool isLoading = true; // ローディング状態を追跡
 
   @override
   void initState() {
     super.initState();
-    initDb().then((_) async {
-      List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase();
-      if (fetchedData.isNotEmpty) {
-        setState(() {
-          databaseData = fetchedData.sublist(1); // 最初の行を削除
-          filteredData = databaseData!; // 初期状態で全データを表示
-        });
-      }
-    }).catchError((error) {
-      print("initState エラー: $error");
-    });
-
-    _searchController.addListener(_filterData);
+    _initializeDatabase();
+    _searchController.addListener(_filterData); // 検索バーの入力でフィルタリング
   }
 
-  void _filterData() {
-    final query = convertToKatakana(_searchController.text.toLowerCase()); // カタカナで検索キーワードを変換
+  Future<void> _initializeDatabase() async {
+    try {
+      await initDb(); // データベースの初期化
+      await updateDatabaseWithJsonData(); // JSONデータでデータベースを更新
 
+      List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase(); // データベースからデータ取得
+
+      setState(() {
+        databaseData = fetchedData;
+        filteredData = databaseData!;
+        isLoading = false; // ローディング完了
+      });
+
+      // 必要な情報だけをログに表示
+      print("データベースの初期化とデータ取得が完了しました。取得したデータ件数: ${fetchedData.length}");
+    } catch (error) {
+      print("Database initialization error: $error");
+      setState(() {
+        isLoading = false; // エラー時でもローディングを解除
+      });
+    }
+  }
+
+  // データをフィルタリングするメソッド
+  void _filterData() {
+    final query = _searchController.text.toLowerCase();
     setState(() {
       filteredData = databaseData!.where((item) {
-        final hougenTextInKatakana = convertToKatakana(item['hougen']?.toString().toLowerCase() ?? '');
-        return hougenTextInKatakana.contains(query);
+        final hougenText = item['hougen']?.toString().toLowerCase() ?? '';
+        return hougenText.contains(query);
       }).toList();
     });
   }
@@ -50,36 +60,6 @@ class QuizPageState extends State<QuizPage> {
   void dispose() {
     _searchController.dispose();
     super.dispose();
-  }
-
-  String convertToKatakana(String input) {
-    StringBuffer output = StringBuffer();
-    for (var i = 0; i < input.length; i++) {
-      String current = input[i];
-
-      if (i < input.length - 2) {
-        String next = input.substring(i, i + 3);
-        if (romajiToKatakana.containsKey(next)) {
-          output.write(romajiToKatakana[next]);
-          i += 2;
-          continue;
-        }
-      }
-
-      if (i < input.length - 1) {
-        String next = input.substring(i, i + 2);
-        if (romajiToKatakana.containsKey(next)) {
-          output.write(romajiToKatakana[next]);
-          i++;
-          continue;
-        }
-      }
-
-      if (romajiToKatakana.containsKey(current)) {
-        output.write(romajiToKatakana[current]);
-      }
-    }
-    return output.toString();
   }
 
   @override
@@ -106,8 +86,8 @@ class QuizPageState extends State<QuizPage> {
           ),
         ),
       ),
-      body: databaseData == null
-          ? const Center(child: CircularProgressIndicator())
+      body: isLoading
+          ? const Center(child: CircularProgressIndicator()) // データがロード中の場合
           : ListView.separated(
               controller: _controller,
               itemCount: filteredData.length,
@@ -115,7 +95,7 @@ class QuizPageState extends State<QuizPage> {
               itemBuilder: (context, index) {
                 return ListTile(
                   title: Text(
-                    convertToKatakana(filteredData[index]['hougen'] ?? ''),
+                    filteredData[index]['hougen'] ?? '',
                     style: const TextStyle(fontSize: 20),
                   ),
                   subtitle: Text(filteredData[index]['japanese'] ?? ''),
