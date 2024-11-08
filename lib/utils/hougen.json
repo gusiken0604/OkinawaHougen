@@ -23,5 +23,14 @@
         "usage_example": "例：新しい方言の使用例。"
       
         
-    }
+    },
+    [
+        {
+          "id": 1,
+          "hougen": "ハイサイ",
+          "japanese": "こんにちは",
+          "category": "挨拶",
+          "usage_example": "ハイサイぐスーよ"
+        }
+      ]
 ]
