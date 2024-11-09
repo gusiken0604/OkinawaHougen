@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utils/db_helper.dart'; // db_helper.dart をインポート
+import '../utils/db_helper.dart'; // DBHelperクラスをインポート
 
 class QuizPage extends StatefulWidget {
   const QuizPage({Key? key}) : super(key: key);
@@ -12,7 +12,6 @@ class QuizPageState extends State<QuizPage> {
   final ScrollController _controller = ScrollController();
   List<Map<String, dynamic>>? databaseData;
   List<Map<String, dynamic>> filteredData = [];
-
   bool isLoading = true; // ローディング状態を追跡
 
   @override
@@ -24,10 +23,10 @@ class QuizPageState extends State<QuizPage> {
 
   Future<void> _initializeDatabase() async {
     try {
-      await initDb(); // データベースの初期化
-      await updateDatabaseWithJsonData(); // JSONデータでデータベースを更新
+      final db = await DBHelper.db; // データベースの初期化
+      await DBHelper.updateDatabaseWithJsonData(); // JSONデータでデータベースを更新
 
-      List<Map<String, dynamic>> fetchedData = await fetchDataFromDatabase(); // データベースからデータ取得
+      List<Map<String, dynamic>> fetchedData = await DBHelper.fetchDataFromDatabase(); // データベースからデータ取得
 
       setState(() {
         databaseData = fetchedData;
@@ -35,7 +34,6 @@ class QuizPageState extends State<QuizPage> {
         isLoading = false; // ローディング完了
       });
 
-      // 必要な情報だけをログに表示
       print("データベースの初期化とデータ取得が完了しました。取得したデータ件数: ${fetchedData.length}");
     } catch (error) {
       print("Database initialization error: $error");
