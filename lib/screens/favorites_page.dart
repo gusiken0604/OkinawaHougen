@@ -24,6 +24,13 @@ class FavoritesPage extends StatelessWidget {
                     return ListTile(
                       title: Text(item['hougen'] ?? ''),
                       subtitle: Text(item['japanese'] ?? ''),
+                      trailing: IconButton(
+                        icon: const Icon(Icons.favorite, color: Colors.red),
+                        onPressed: () {
+                          // お気に入りから削除
+                          favoritesProvider.toggleFavorite(item);
+                        },
+                      ),
                     );
                   },
                 );

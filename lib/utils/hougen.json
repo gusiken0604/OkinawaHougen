@@ -1,2408 +1,2579 @@
 [
     {
-      "id": 1,
-      "hougen": "はいさい / はいたい",
-      "japanese": "こんにちは",
-      "category": "挨拶",
-      "usage_example": "男性が用いるのが「はいさい」、女性が用いるのは「はいたい」"
+        "id": 1,
+        "hougen": "はいさい / はいたい",
+        "japanese": "こんにちは",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "男性が用いるのが「はいさい」、女性が用いるのは「はいたい」"
     },
     {
-      "id": 2,
-      "hougen": "めんそーれ",
-      "japanese": "いらっしゃい",
-      "category": "挨拶",
-      "usage_example": "いる。来る。行くの敬語。"
+        "id": 2,
+        "hougen": "めんそーれ",
+        "japanese": "いらっしゃい",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "いる。来る。行くの敬語。"
     },
     {
-      "id": 3,
-      "hougen": "ぐぶりーさびら",
-      "japanese": "ごめんください。失礼します。",
-      "category": "挨拶",
-      "usage_example": "他家を訪ねるとき、他人と別れるとき、人前を通るときなど"
+        "id": 3,
+        "hougen": "ぐぶりーさびら",
+        "japanese": "ごめんください。失礼します。",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "他家を訪ねるとき、他人と別れるとき、人前を通るときなど"
     },
     {
-      "id": 4,
-      "hougen": "はじみてぃやいびーん",
-      "japanese": "はじめまして",
-      "category": "挨拶",
-      "usage_example": "目下に対しては、はじみてぃやー"
+        "id": 4,
+        "hougen": "はじみてぃやいびーん",
+        "japanese": "はじめまして",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "目下に対しては、はじみてぃやー"
     },
     {
-      "id": 5,
-      "hougen": "ちゅーうぅがなびら",
-      "japanese": "こんにちは",
-      "category": "挨拶",
-      "usage_example": "目上に対する挨拶言葉"
+        "id": 5,
+        "hougen": "ちゅーうぅがなびら",
+        "japanese": "こんにちは",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "目上に対する挨拶言葉"
     },
     {
-      "id": 6,
-      "hougen": "にふぇーれーびる",
-      "japanese": "ありがとうございます",
-      "category": "挨拶",
-      "usage_example": "感謝の意を表す"
+        "id": 6,
+        "hougen": "にふぇーれーびる",
+        "japanese": "ありがとうございます",
+        "category": "基本の挨拶・感謝表現",
+        "usage_example": "感謝の意を表す"
     },
     {
-      "id": 7,
-      "hougen": "あーいん",
-      "japanese": "合う",
-      "category": "あーたん",
-      "usage_example": "あーらん"
+        "id": 7,
+        "hougen": "あーいん",
+        "japanese": "合う",
+        "category": "動詞"
     },
     {
-      "id": 8,
-      "hougen": "あーけーじゅー",
-      "japanese": "トンボ",
-      "category": "蜻蛉"
+        "id": 8,
+        "hougen": "あーけーじゅー",
+        "japanese": "トンボ",
+        "category": "自然や地理に関連する言葉"
     },
     {
-      "id": 9,
-      "hougen": "あーすん",
-      "japanese": "①合わす",
-      "category": "②混ぜる",
-      "usage_example": "あーちゃん"
-    },
-    {
-      "id": 10,
-      "hougen": "あい",
-      "japanese": "あいこー",
-      "category": "蟻"
-    },
-    {
-      "id": 11,
-      "hougen": "あか",
-      "japanese": "（頭髪",
-      "category": "衣服",
-      "usage_example": "船底の）汚れ"
-    },
-    {
-      "id": 12,
-      "hougen": "あか",
-      "japanese": "赤"
-    },
-    {
-      "id": 13,
-      "hougen": "あがいん",
-      "japanese": "①上がる",
-      "category": "②上達する",
-      "usage_example": "悪い方に優れる③終わる"
-    },
-    {
-      "id": 14,
-      "hougen": "あかがいん",
-      "japanese": "明るくなる",
-      "category": "あかがたん",
-      "usage_example": "あかがらん"
-    },
-    {
-      "id": 15,
-      "hougen": "あかすん",
-      "japanese": "開ける",
-      "category": "明かす",
-      "usage_example": "あかちゃん"
-    },
-    {
-      "id": 16,
-      "hougen": "あがた",
-      "japanese": "あちら"
-    },
-    {
-      "id": 17,
-      "hougen": "あがち",
-      "japanese": "ヤンバルクイナ"
-    },
-    {
-      "id": 18,
-      "hougen": "あがちゅん",
-      "japanese": "①よく働く",
-      "category": "②はかどる",
-      "usage_example": "あがちゃん"
-    },
-    {
-      "id": 19,
-      "hougen": "あかちち",
-      "japanese": "夜明け",
-      "category": "暁"
-    },
-    {
-      "id": 20,
-      "hougen": "あがとー",
-      "japanese": "あんな遠く"
-    },
-    {
-      "id": 21,
-      "hougen": "あがねーいん",
-      "japanese": "節約する",
-      "category": "あがねーたん",
-      "usage_example": "あがねーらん"
-    },
-    {
-      "id": 22,
-      "hougen": "あがみーん",
-      "japanese": "敬う",
-      "category": "あがみたん",
-      "usage_example": "あがみらん"
-    },
-    {
-      "id": 23,
-      "hougen": "あがらすん",
-      "japanese": "揚げる",
-      "category": "あがらちゃん",
-      "usage_example": "あがらさん"
-    },
-    {
-      "id": 24,
-      "hougen": "あがらすん",
-      "japanese": "完成させる",
-      "category": "あがらちゃん",
-      "usage_example": "あがらさん"
-    },
-    {
-      "id": 25,
-      "hougen": "あぎ",
-      "japanese": "陸"
-    },
-    {
-      "id": 26,
-      "hougen": "あきーん",
-      "japanese": "開く",
-      "category": "あきたん",
-      "usage_example": "あきらん"
-    },
-    {
-      "id": 27,
-      "hougen": "あぎまーすん",
-      "japanese": "せきたてる",
-      "category": "あぎまーちゃん",
-      "usage_example": "あぎまーさん"
-    },
-    {
-      "id": 28,
-      "hougen": "あきま　どぅし",
-      "japanese": "新年"
-    },
-    {
-      "id": 29,
-      "hougen": "あこーくろー",
-      "japanese": "夕暮れ",
-      "category": "薄暮"
-    },
-    {
-      "id": 30,
-      "hougen": "あさ",
-      "japanese": "朝"
-    },
-    {
-      "id": 31,
-      "hougen": "あさぐいん",
-      "japanese": "勝手にかき回す",
-      "category": "あさぐたん",
-      "usage_example": "あさぐらん"
-    },
-    {
-      "id": 32,
-      "hougen": "あし",
-      "japanese": "足"
-    },
-    {
-      "id": 33,
-      "hougen": "あし",
-      "japanese": "汗"
-    },
-    {
-      "id": 34,
-      "hougen": "あしがちゅん",
-      "japanese": "あせる",
-      "category": "あしがちゃん",
-      "usage_example": "あしがかん"
-    },
-    {
-      "id": 35,
-      "hougen": "あじけー",
-      "japanese": "シャコガイ"
-    },
-    {
-      "id": 36,
-      "hougen": "あしぶん",
-      "japanese": "遊ぶ",
-      "category": "あしだん",
-      "usage_example": "あしばん"
-    },
-    {
-      "id": 37,
-      "hougen": "あしぶ",
-      "japanese": "あせも"
-    },
-    {
-      "id": 38,
-      "hougen": "あじまー",
-      "japanese": "交差するところ",
-      "category": "交差すること"
-    },
-    {
-      "id": 39,
-      "hougen": "あたい",
-      "japanese": "くらい",
-      "category": "程度"
-    },
-    {
-      "id": 40,
-      "hougen": "あたいん",
-      "japanese": "あたる",
-      "category": "あたたん",
-      "usage_example": "あたらん"
-    },
-    {
-      "id": 41,
-      "hougen": "あち〜",
-      "japanese": "暑",
-      "category": "熱",
-      "usage_example": "厚"
-    },
-    {
-      "id": 42,
-      "hougen": "あちかいん",
-      "japanese": "①あつかう",
-      "category": "②こき使う",
-      "usage_example": "あちかたん"
-    },
-    {
-      "id": 43,
-      "hougen": "あちまいん",
-      "japanese": "集まる",
-      "category": "あちまたん",
-      "usage_example": "あちまらん"
-    },
-    {
-      "id": 44,
-      "hougen": "あちゃー",
-      "japanese": "明日"
-    },
-    {
-      "id": 45,
-      "hougen": "あちゅん",
-      "japanese": "明く",
-      "category": "開く",
-      "usage_example": "空く"
-    },
-    {
-      "id": 46,
-      "hougen": "あちらすん",
-      "japanese": "食べ物を暖める",
-      "category": "あちらちゃん",
-      "usage_example": "あちらさん"
-    },
-    {
-      "id": 47,
-      "hougen": "あちりーん",
-      "japanese": "熱くなる",
-      "category": "あちりたん",
-      "usage_example": "あちりらん"
-    },
-    {
-      "id": 48,
-      "hougen": "あちれーゆん",
-      "japanese": "注文して仕立てる",
-      "category": "あちれーたん",
-      "usage_example": "あちれーらん"
-    },
-    {
-      "id": 49,
-      "hougen": "あっく　すん",
-      "japanese": "（上から目線で）叱りつける",
-      "category": "怒鳴る",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 50,
-      "hougen": "あった〜",
-      "japanese": "急"
-    },
-    {
-      "id": 51,
-      "hougen": "あったみ",
-      "japanese": "精肉"
-    },
-    {
-      "id": 52,
-      "hougen": "あったる",
-      "japanese": "大事な",
-      "category": "大切な"
-    },
-    {
-      "id": 53,
-      "hougen": "あっちゅん",
-      "japanese": "動きまわる",
-      "category": "動く",
-      "usage_example": "歩く"
-    },
-    {
-      "id": 54,
-      "hougen": "あっぺーる／うっぺーる／くっぺーる",
-      "japanese": "あの／その／この大きさ"
-    },
-    {
-      "id": 55,
-      "hougen": "あてぃ",
-      "japanese": "思慮",
-      "category": "目当て"
-    },
-    {
-      "id": 56,
-      "hougen": "あてぃーん",
-      "japanese": "当てる",
-      "category": "あてぃたん",
-      "usage_example": "あてぃらん"
-    },
-    {
-      "id": 57,
-      "hougen": "あとぅ　しーちゅん",
-      "japanese": "後ずさりする",
-      "category": "〜しーちゃん",
-      "usage_example": "〜しーかん"
-    },
-    {
-      "id": 58,
-      "hougen": "あとぅない　あとぅない",
-      "japanese": "後ろにひっこむこと"
-    },
-    {
-      "id": 59,
-      "hougen": "あとぅまさい　がふー",
-      "japanese": "後の方の幸運こそ勝る"
-    },
-    {
-      "id": 60,
-      "hougen": "あばさー",
-      "japanese": "あばし",
-      "category": "おてんば",
-      "usage_example": "針千本"
-    },
-    {
-      "id": 61,
-      "hougen": "あびーん",
-      "japanese": "大声をだす",
-      "category": "声をかける",
-      "usage_example": "しゃべる"
-    },
-    {
-      "id": 62,
-      "hougen": "あふぁげーりーん",
-      "japanese": "気持ちを萎縮させる",
-      "category": "あふぁげーりたん",
-      "usage_example": "あふぁげーりらん"
-    },
-    {
-      "id": 63,
-      "hougen": "あふぁなちゅん",
-      "japanese": "寝るの卑語",
-      "category": "あふぁなちゃん",
-      "usage_example": "あふぁなかん"
-    },
-    {
-      "id": 64,
-      "hougen": "あふぃー",
-      "japanese": "兄さん（平民）",
-      "usage_example": "やっちー〈兄さん（士族）〉"
-    },
-    {
-      "id": 65,
-      "hougen": "あふぃらー",
-      "japanese": "アヒル"
-    },
-    {
-      "id": 66,
-      "hougen": "あふぇーいん",
-      "japanese": "（気が）抜けて水っぽくなる",
-      "category": "あふぇーたん",
-      "usage_example": "あふぇーらん"
-    },
-    {
-      "id": 67,
-      "hougen": "あまいん",
-      "japanese": "余る",
-      "category": "あまたん",
-      "usage_example": "あまらん"
-    },
-    {
-      "id": 68,
-      "hougen": "あますん",
-      "japanese": "元気が有り余っている",
-      "category": "あまちゃん",
-      "usage_example": "あまさん"
-    },
-    {
-      "id": 69,
-      "hougen": "あまみ／あまん　ゆー",
-      "japanese": "大昔"
-    },
-    {
-      "id": 70,
-      "hougen": "あまぐゎし",
-      "japanese": "ぜんざい"
-    },
-    {
-      "id": 71,
-      "hougen": "あまじゃき",
-      "japanese": "酢"
-    },
-    {
-      "id": 72,
-      "hougen": "あや",
-      "japanese": "綾",
-      "category": "模様"
-    },
-    {
-      "id": 73,
-      "hougen": "あやー",
-      "japanese": "お母さん（士族）"
-    },
-    {
-      "id": 74,
-      "hougen": "あやめー　くさめー",
-      "japanese": "まつわりついてじゃますること"
-    },
-    {
-      "id": 75,
-      "hougen": "あやかーいん",
-      "japanese": "あやかる",
-      "category": "あやかーたん",
-      "usage_example": "あやかーらん"
-    },
-    {
-      "id": 76,
-      "hougen": "あやかーらすん",
-      "japanese": "あやからす",
-      "category": "あやかーらちゃん",
-      "usage_example": "あやかーらさん"
-    },
-    {
-      "id": 77,
-      "hougen": "あやまいん",
-      "japanese": "あやまちをする",
-      "category": "あやまたん",
-      "usage_example": "あやまらん"
-    },
-    {
-      "id": 78,
-      "hougen": "あらがーいん",
-      "japanese": "口論する",
-      "category": "議論する",
-      "usage_example": "あらがーたん"
-    },
-    {
-      "id": 79,
-      "hougen": "あらげーいん",
-      "japanese": "大きくなり過ぎる",
-      "category": "あらげーたん",
-      "usage_example": "あらげーらん"
-    },
-    {
-      "id": 80,
-      "hougen": "あらむん",
-      "japanese": "粗末な食べ物"
-    },
-    {
-      "id": 81,
-      "hougen": "あり",
-      "japanese": "あれ",
-      "category": "あの人"
-    },
-    {
-      "id": 82,
-      "hougen": "あわてぃーん",
-      "japanese": "急ぐ",
-      "category": "あわてぃたん",
-      "usage_example": "あわてぃらん"
-    },
-    {
-      "id": 83,
-      "hougen": "あわり",
-      "japanese": "苦労"
-    },
-    {
-      "id": 84,
-      "hougen": "あん",
-      "japanese": "ある"
-    },
-    {
-      "id": 85,
-      "hougen": "あんしー　かんしー　すん",
-      "japanese": "あれこれ試行する",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 86,
-      "hougen": "あんぢゅん",
-      "japanese": "焼く",
-      "category": "あたためる",
-      "usage_example": "あんたん"
-    },
-    {
-      "id": 87,
-      "hougen": "あんだ",
-      "japanese": "油",
-      "category": "脂"
-    },
-    {
-      "id": 88,
-      "hougen": "あんでぃーん",
-      "japanese": "こぼれる",
-      "category": "あんでぃたん",
-      "usage_example": "あんでぃらん"
-    },
-    {
-      "id": 89,
-      "hougen": "あんだすん",
-      "japanese": "こぼす",
-      "category": "あんだちゃん",
-      "usage_example": "あんださん"
-    },
-    {
-      "id": 90,
-      "hougen": "あんべー",
-      "japanese": "あんばい",
-      "category": "気分"
-    },
-    {
-      "id": 91,
-      "hougen": "あんまー",
-      "japanese": "お母さん（平民）"
-    },
-    {
-      "id": 92,
-      "hougen": "〜い",
-      "japanese": "時",
-      "category": "から(理由)"
-    },
-    {
-      "id": 93,
-      "hougen": "いーけーりーん",
-      "japanese": "中味がすっかりこぼれる",
-      "category": "いーけーりたん",
-      "usage_example": "いーけーりらん"
-    },
-    {
-      "id": 94,
-      "hougen": "いーけーらすん",
-      "japanese": "中味をすっかりこぼす",
-      "category": "いーけーらちゃん",
-      "usage_example": "いーけーさん"
-    },
-    {
-      "id": 95,
-      "hougen": "いーち",
-      "japanese": "息"
-    },
-    {
-      "id": 96,
-      "hougen": "いーちゅ",
-      "japanese": "絹"
-    },
-    {
-      "id": 97,
-      "hougen": "いーび",
-      "japanese": "指"
-    },
-    {
-      "id": 98,
-      "hougen": "いーふぇー",
-      "japanese": "位牌"
-    },
-    {
-      "id": 99,
-      "hougen": "いーらー",
-      "japanese": "くらげ",
-      "category": "かつおのえぼし"
-    },
-    {
-      "id": 100,
-      "hougen": "いーん",
-      "japanese": "言う",
-      "category": "いちゃん",
-      "usage_example": "いらん"
-    },
-    {
-      "id": 101,
-      "hougen": "いーん",
-      "japanese": "入る",
-      "category": "いっちゃん",
-      "usage_example": "いらん"
-    },
-    {
-      "id": 102,
-      "hougen": "いーん",
-      "japanese": "要る",
-      "category": "いっちゃん",
-      "usage_example": "いらん"
-    },
-    {
-      "id": 103,
-      "hougen": "いく〜",
-      "japanese": "幾"
-    },
-    {
-      "id": 104,
-      "hougen": "いくさ",
-      "japanese": "戦争"
-    },
-    {
-      "id": 105,
-      "hougen": "いぐますん",
-      "japanese": "計画する",
-      "category": "いぐまちゃん",
-      "usage_example": "いぐまさん"
-    },
-    {
-      "id": 106,
-      "hougen": "いさとぅー",
-      "japanese": "カマキリ"
-    },
-    {
-      "id": 107,
-      "hougen": "いさみーん",
-      "japanese": "励ます",
-      "category": "いさみたん",
-      "usage_example": "いさみらん"
-    },
-    {
-      "id": 108,
-      "hougen": "いし",
-      "japanese": "石"
-    },
-    {
-      "id": 109,
-      "hougen": "いしぇー",
-      "japanese": "くわしいこと"
-    },
-    {
-      "id": 110,
-      "hougen": "いそーさ　すん",
-      "japanese": "嬉しがる",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 111,
-      "hougen": "いた　ぢり",
-      "japanese": "板切れ"
-    },
-    {
-      "id": 112,
-      "hougen": "いち",
-      "japanese": 1
-    },
-    {
-      "id": 113,
-      "hougen": "いち",
-      "japanese": "池"
-    },
-    {
-      "id": 114,
-      "hougen": "いち",
-      "japanese": "いつ"
-    },
-    {
-      "id": 115,
-      "hougen": "いぢ",
-      "japanese": "勇気",
-      "category": "根気",
-      "usage_example": "怒り"
-    },
-    {
-      "id": 116,
-      "hougen": "いちか",
-      "japanese": "いつか"
-    },
-    {
-      "id": 117,
-      "hougen": "いちちゅん",
-      "japanese": "生きる",
-      "category": "いちちゃん",
-      "usage_example": "いちかん"
-    },
-    {
-      "id": 118,
-      "hougen": "いちかすん",
-      "japanese": "生かす",
-      "category": "いちかちゃん",
-      "usage_example": "いちかさん"
-    },
-    {
-      "id": 119,
-      "hougen": "いちまん",
-      "japanese": "糸満"
-    },
-    {
-      "id": 120,
-      "hougen": "いぢり",
-      "japanese": "意気地",
-      "category": "気力"
-    },
-    {
-      "id": 121,
-      "hougen": "いちん",
-      "japanese": "意見"
-    },
-    {
-      "id": 122,
-      "hougen": "いちゃーすん",
-      "japanese": "引き逢わす",
-      "category": "帳尻を合わせる",
-      "usage_example": "いちゃーちゃん"
-    },
-    {
-      "id": 123,
-      "hougen": "いちゃいん",
-      "japanese": "出逢う",
-      "category": "いちゃたん",
-      "usage_example": "いちゃらん"
-    },
-    {
-      "id": 124,
-      "hougen": "いちゃさ　すん",
-      "japanese": "惜しむ",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 125,
-      "hougen": "いちゃ　がらすー",
-      "japanese": "イカの塩漬け"
-    },
-    {
-      "id": 126,
-      "hougen": "いちゃんだ",
-      "japanese": "ただ",
-      "category": "無料"
-    },
-    {
-      "id": 127,
-      "hougen": "いちゅく",
-      "japanese": "従兄弟"
-    },
-    {
-      "id": 128,
-      "hougen": "いちゅた",
-      "japanese": "ちょっとの間"
-    },
-    {
-      "id": 129,
-      "hougen": "いちゅび",
-      "japanese": "イチゴ"
-    },
-    {
-      "id": 130,
-      "hougen": "いちぇー　かじ",
-      "japanese": "出逢いの悪霊"
-    },
-    {
-      "id": 131,
-      "hougen": "いちゅん",
-      "japanese": "行く",
-      "category": "っんぢゃん",
-      "usage_example": "いかん"
-    },
-    {
-      "id": 132,
-      "hougen": "いっさん",
-      "japanese": "走って"
-    },
-    {
-      "id": 133,
-      "hougen": "いっそー",
-      "japanese": "普段"
-    },
-    {
-      "id": 134,
-      "hougen": "いっそー　なーでぃー／ちび　なーでぃー",
-      "japanese": "残らず"
-    },
-    {
-      "id": 135,
-      "hougen": "いったー　はらー",
-      "japanese": "あなたたちの側"
-    },
-    {
-      "id": 136,
-      "hougen": "いっとぅがよー",
-      "japanese": "おはじき"
-    },
-    {
-      "id": 137,
-      "hougen": "いっとぅち",
-      "japanese": "片時"
-    },
-    {
-      "id": 138,
-      "hougen": "いとぅいん",
-      "japanese": "嫌がる",
-      "category": "いとぅたん",
-      "usage_example": "いとぅらん"
-    },
-    {
-      "id": 139,
-      "hougen": "いなか　んちゅ",
-      "japanese": "田舎（出身の）者"
-    },
-    {
-      "id": 140,
-      "hougen": "いなむどぅち",
-      "japanese": "猪料理"
-    },
-    {
-      "id": 141,
-      "hougen": "いばいん",
-      "japanese": "威張る"
-    },
-    {
-      "id": 142,
-      "hougen": "いば〜",
-      "japanese": "狭"
-    },
-    {
-      "id": 143,
-      "hougen": "いば　どぅくる",
-      "japanese": "密集している所"
-    },
-    {
-      "id": 144,
-      "hougen": "いばいぬ　みー",
-      "japanese": "狭苦しいところ"
-    },
-    {
-      "id": 145,
-      "hougen": "いま",
-      "japanese": "新鮮なもの",
-      "category": "現世"
-    },
-    {
-      "id": 146,
-      "hougen": "いみ",
-      "japanese": "夢"
-    },
-    {
-      "id": 147,
-      "hougen": "いみ　あき",
-      "japanese": "忌み明け"
-    },
-    {
-      "id": 148,
-      "hougen": "いみーん",
-      "japanese": "催促する",
-      "category": "いみたん",
-      "usage_example": "いみらん"
-    },
-    {
-      "id": 149,
-      "hougen": "いみ　すん",
-      "japanese": "量が増す",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 150,
-      "hougen": "いめんしぇーん",
-      "japanese": "いらっしゃる",
-      "category": "いめんそーちゃん",
-      "usage_example": "いめんそーらん"
-    },
-    {
-      "id": 151,
-      "hougen": "いめんしぇーびーん",
-      "japanese": "いらっしゃる",
-      "category": "いめんしぇーびたん",
-      "usage_example": "いめんしぇーびらん"
-    },
-    {
-      "id": 152,
-      "hougen": "いゆ",
-      "japanese": "魚"
-    },
-    {
-      "id": 153,
-      "hougen": "いゆぬ　みー",
-      "japanese": "魚の目"
-    },
-    {
-      "id": 154,
-      "hougen": "いらーすん",
-      "japanese": "一時立て替えて貸す",
-      "category": "いらーちゃん",
-      "usage_example": "いらーさん"
-    },
-    {
-      "id": 155,
-      "hougen": "いらいん",
-      "japanese": "一時立て替えて借りる",
-      "category": "いらたん",
-      "usage_example": "いららん"
-    },
-    {
-      "id": 156,
-      "hougen": "いらな",
-      "japanese": "鎌"
-    },
-    {
-      "id": 157,
-      "hougen": "いらぶん",
-      "japanese": "選ぶ",
-      "category": "いらだん",
-      "usage_example": "いらばん"
-    },
-    {
-      "id": 158,
-      "hougen": "いりーん",
-      "japanese": "入れる",
-      "category": "いったん",
-      "usage_example": "いりらん"
-    },
-    {
-      "id": 159,
-      "hougen": "いりち",
-      "japanese": "鱗",
-      "category": "ふけ"
-    },
-    {
-      "id": 160,
-      "hougen": "いりちゅん",
-      "japanese": "炒める",
-      "category": "いりちゃん",
-      "usage_example": "いりかん"
-    },
-    {
-      "id": 161,
-      "hougen": "いりめー",
-      "japanese": "収入"
-    },
-    {
-      "id": 162,
-      "hougen": "いりゆー",
-      "japanese": "必要"
-    },
-    {
-      "id": 163,
-      "hougen": "いりむくー",
-      "japanese": "入り婿"
-    },
-    {
-      "id": 164,
-      "hougen": "いりわい",
-      "japanese": "口論"
-    },
-    {
-      "id": 165,
-      "hougen": "いる",
-      "japanese": "色",
-      "category": "血色"
-    },
-    {
-      "id": 166,
-      "hougen": "いるみー　わかすん",
-      "japanese": "選り分ける",
-      "category": "いるみーわかちゃん",
-      "usage_example": "いるみーわかさん"
-    },
-    {
-      "id": 167,
-      "hougen": "いれーいん",
-      "japanese": "答える"
-    },
-    {
-      "id": 168,
-      "hougen": "いん",
-      "japanese": "犬"
-    },
-    {
-      "id": 169,
-      "hougen": "うい",
-      "japanese": "ウリ"
-    },
-    {
-      "id": 170,
-      "hougen": "ういん",
-      "japanese": "売る",
-      "category": "うたん",
-      "usage_example": "うらん"
-    },
-    {
-      "id": 171,
-      "hougen": "ういん",
-      "japanese": "織る",
-      "category": "うたん",
-      "usage_example": "うらん"
-    },
-    {
-      "id": 172,
-      "hougen": "うーいん",
-      "japanese": "追う",
-      "category": "従う",
-      "usage_example": "うーたん"
-    },
-    {
-      "id": 173,
-      "hougen": "うーいん",
-      "japanese": "負う",
-      "category": "うーたん",
-      "usage_example": "うーらん"
-    },
-    {
-      "id": 174,
-      "hougen": "うーく",
-      "japanese": "奥"
-    },
-    {
-      "id": 175,
-      "hougen": "うーくい",
-      "japanese": "お送り"
-    },
-    {
-      "id": 176,
-      "hougen": "うーぐとぅ",
-      "japanese": "ありがたいこと",
-      "category": "うれしいこと"
-    },
-    {
-      "id": 177,
-      "hougen": "うーさり　あーさり　すん",
-      "japanese": "ぺこぺこする",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 178,
-      "hougen": "うーし",
-      "japanese": "臼"
-    },
-    {
-      "id": 179,
-      "hougen": "うーしーん",
-      "japanese": "負わせる",
-      "category": "疑う",
-      "usage_example": "うーしたん"
-    },
-    {
-      "id": 180,
-      "hougen": "うーすん",
-      "japanese": "負わす",
-      "category": "うーちゃん",
-      "usage_example": "うーさん"
-    },
-    {
-      "id": 181,
-      "hougen": "うーちるがいん",
-      "japanese": "すっかり浸透する",
-      "category": "すっかり連なる",
-      "usage_example": "うーちるがたん"
-    },
-    {
-      "id": 182,
-      "hougen": "うーちりばんた",
-      "japanese": "断崖絶壁"
-    },
-    {
-      "id": 183,
-      "hougen": "うーとーとぅ　すん",
-      "japanese": "お祈りする",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 184,
-      "hougen": "うーばんばらー　すん",
-      "japanese": "がらんとしている",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 185,
-      "hougen": "うーび",
-      "japanese": "帯"
-    },
-    {
-      "id": 186,
-      "hougen": "うーふぁ",
-      "japanese": "おんぶ"
-    },
-    {
-      "id": 187,
-      "hougen": "うーふー",
-      "japanese": "敬語"
-    },
-    {
-      "id": 188,
-      "hougen": "うーまくー",
-      "japanese": "うーまく",
-      "category": "腕白",
-      "usage_example": "しっかり者"
-    },
-    {
-      "id": 189,
-      "hougen": "うかきぶしぇー",
-      "japanese": "お治めになること"
-    },
-    {
-      "id": 190,
-      "hougen": "うかじゃい　かび",
-      "japanese": "祭壇に供える紙"
-    },
-    {
-      "id": 191,
-      "hougen": "うかぢ",
-      "japanese": "おかげ"
-    },
-    {
-      "id": 192,
-      "hougen": "うかっとぅー",
-      "japanese": "うっかり者"
-    },
-    {
-      "id": 193,
-      "hougen": "うかみがなしー",
-      "japanese": "神様"
-    },
-    {
-      "id": 194,
-      "hougen": "うきーん",
-      "japanese": "浮かべる",
-      "category": "うかちゃん",
-      "usage_example": "うかさん"
-    },
-    {
-      "id": 195,
-      "hougen": "うきーん",
-      "japanese": "起きる",
-      "category": "うきたん",
-      "usage_example": "うきらん"
-    },
-    {
-      "id": 196,
-      "hougen": "うきーん",
-      "japanese": "受ける",
-      "category": "引き受ける",
-      "usage_example": "うきたん"
-    },
-    {
-      "id": 197,
-      "hougen": "うくいん",
-      "japanese": "送る",
-      "category": "うくたん",
-      "usage_example": "うくらん"
-    },
-    {
-      "id": 198,
-      "hougen": "うぐしく",
-      "japanese": "首里城"
-    },
-    {
-      "id": 199,
-      "hougen": "うくすん",
-      "japanese": "起こす",
-      "category": "うくちゃん",
-      "usage_example": "うくさん"
-    },
-    {
-      "id": 200,
-      "hougen": "うくすん",
-      "japanese": "興す",
-      "category": "うくちゃん",
-      "usage_example": "うくさん"
-    },
-    {
-      "id": 201,
-      "hougen": "うくりーん",
-      "japanese": "初めて起こる",
-      "category": "うくりたん",
-      "usage_example": "うくららん"
-    },
-    {
-      "id": 202,
-      "hougen": "うぐりーん",
-      "japanese": "再発する",
-      "category": "うぐりたん",
-      "usage_example": "うぐららん"
-    },
-    {
-      "id": 203,
-      "hougen": "うくりーん",
-      "japanese": "遅れる",
-      "category": "うくりたん",
-      "usage_example": "うくららん"
-    },
-    {
-      "id": 204,
-      "hougen": "うくでぃ",
-      "japanese": "神人"
-    },
-    {
-      "id": 205,
-      "hougen": "うけー（めー）",
-      "japanese": "お粥"
-    },
-    {
-      "id": 206,
-      "hougen": "うこー",
-      "japanese": "お線香"
-    },
-    {
-      "id": 207,
-      "hougen": "うこーる",
-      "japanese": "香炉"
-    },
-    {
-      "id": 208,
-      "hougen": "うぐゎん",
-      "japanese": "祈願"
-    },
-    {
-      "id": 209,
-      "hougen": "うさーいん",
-      "japanese": "合わさる",
-      "category": "うさーたん",
-      "usage_example": "うさーらん"
-    },
-    {
-      "id": 210,
-      "hougen": "うさーすん",
-      "japanese": "合わす",
-      "category": "抱かせる",
-      "usage_example": "うさーちゃん"
-    },
-    {
-      "id": 211,
-      "hougen": "うさーりーん",
-      "japanese": "襲われる",
-      "category": "うさーりたん",
-      "usage_example": "うさーりらん"
-    },
-    {
-      "id": 212,
-      "hougen": "うさがいん",
-      "japanese": "いただく",
-      "category": "うさがたん",
-      "usage_example": "うさがらん"
-    },
-    {
-      "id": 213,
-      "hougen": "うさきー（なー）",
-      "japanese": "そんなにたくさん"
-    },
-    {
-      "id": 214,
-      "hougen": "うさぢ",
-      "japanese": "ウサギ"
-    },
-    {
-      "id": 215,
-      "hougen": "うさんでー",
-      "japanese": "供え物をさげたもの"
-    },
-    {
-      "id": 216,
-      "hougen": "うし",
-      "japanese": "牛"
-    },
-    {
-      "id": 217,
-      "hougen": "うしーまーしー",
-      "japanese": "順々にまわしすこと"
-    },
-    {
-      "id": 218,
-      "hougen": "うしーみー",
-      "japanese": "清明祭"
-    },
-    {
-      "id": 219,
-      "hougen": "うじーん",
-      "japanese": "恐れをなす",
-      "category": "怖じる",
-      "usage_example": "うじたん"
-    },
-    {
-      "id": 220,
-      "hougen": "うしぇーいん",
-      "japanese": "ばかにする",
-      "category": "うしぇーたん",
-      "usage_example": "うしぇーらん"
-    },
-    {
-      "id": 221,
-      "hougen": "うし〜",
-      "japanese": "押し"
-    },
-    {
-      "id": 222,
-      "hougen": "うしざし",
-      "japanese": "かんざしの一種"
-    },
-    {
-      "id": 223,
-      "hougen": "うしでーく",
-      "japanese": "臼太鼓"
-    },
-    {
-      "id": 224,
-      "hougen": "うじみーん",
-      "japanese": "埋める",
-      "category": "うじみたん",
-      "usage_example": "うじみらん"
-    },
-    {
-      "id": 225,
-      "hougen": "うしる",
-      "japanese": "おつゆ"
-    },
-    {
-      "id": 226,
-      "hougen": "うしる　くぶー",
-      "japanese": "後頭頸部"
-    },
-    {
-      "id": 227,
-      "hougen": "うじゃさー",
-      "japanese": "おじさん",
-      "usage_example": "うばまー〈おばさん〉"
-    },
-    {
-      "id": 228,
-      "hougen": "うじゅますん",
-      "japanese": "目を醒させる",
-      "category": "うじゅまちゃん",
-      "usage_example": "うじゅまさん"
-    },
-    {
-      "id": 229,
-      "hougen": "うじゅむん",
-      "japanese": "目を醒す",
-      "category": "うじゅだん",
-      "usage_example": "うじゅまん"
-    },
-    {
-      "id": 230,
-      "hougen": "うしんちー",
-      "japanese": "着物の前の端を腰巻きの紐の内側に押し込むこと"
-    },
-    {
-      "id": 231,
-      "hougen": "うすめー",
-      "japanese": "おじいさん（平民）"
-    },
-    {
-      "id": 232,
-      "hougen": "うすりーん",
-      "japanese": "敬う",
-      "category": "うすりたん",
-      "usage_example": "うすりらん"
-    },
-    {
-      "id": 233,
-      "hougen": "うすあかがい",
-      "japanese": "薄明かり"
-    },
-    {
-      "id": 234,
-      "hougen": "うすく",
-      "japanese": "あこう"
-    },
-    {
-      "id": 235,
-      "hougen": "うすでー",
-      "japanese": "お祝儀"
-    },
-    {
-      "id": 236,
-      "hougen": "うすん",
-      "japanese": "押す",
-      "category": "うちゃん",
-      "usage_example": "うさん"
-    },
-    {
-      "id": 237,
-      "hougen": "うすいん",
-      "japanese": "かぶせる",
-      "category": "抱く",
-      "usage_example": "うすたん"
-    },
-    {
-      "id": 238,
-      "hougen": "うすばすん",
-      "japanese": "伏せる",
-      "category": "うすばちゃん",
-      "usage_example": "うすばさん"
-    },
-    {
-      "id": 239,
-      "hougen": "うた",
-      "japanese": "歌"
-    },
-    {
-      "id": 240,
-      "hougen": "うだーすん",
-      "japanese": "おどす",
-      "category": "どなりつける",
-      "usage_example": "うだーちゃん"
-    },
-    {
-      "id": 241,
-      "hougen": "うたき",
-      "japanese": "御嶽"
-    },
-    {
-      "id": 242,
-      "hougen": "うたとぅくる",
-      "japanese": "お二人様"
-    },
-    {
-      "id": 243,
-      "hougen": "うたびみしぇーん",
-      "japanese": "いただく",
-      "category": "うたびみそーちゃん",
-      "usage_example": "うたびみそーらん"
-    },
-    {
-      "id": 244,
-      "hougen": "うち〜",
-      "japanese": "すっかり",
-      "category": "まるごと（強調）"
-    },
-    {
-      "id": 245,
-      "hougen": "うち",
-      "japanese": "内",
-      "category": "家の中"
-    },
-    {
-      "id": 246,
-      "hougen": "うちーん",
-      "japanese": "映る",
-      "category": "移る",
-      "usage_example": "うちたん"
-    },
-    {
-      "id": 247,
-      "hougen": "うち　かび",
-      "japanese": "紙銭",
-      "category": "あの世の紙幣"
-    },
-    {
-      "id": 248,
-      "hougen": "うちきーん",
-      "japanese": "置く",
-      "category": "うちきたん",
-      "usage_example": "うちきらん"
-    },
-    {
-      "id": 249,
-      "hougen": "うちくむん",
-      "japanese": "雨が屋内に降り込む",
-      "category": "うちくだん",
-      "usage_example": "うちくまん"
-    },
-    {
-      "id": 250,
-      "hougen": "うちけー　さりやー",
-      "japanese": "使いっ走り"
-    },
-    {
-      "id": 251,
-      "hougen": "うちちゅー（ぬ）　めー／とーとーがなしーめー",
-      "japanese": "お月様"
-    },
-    {
-      "id": 252,
-      "hougen": "うちなー　ぐち",
-      "japanese": "沖縄語"
-    },
-    {
-      "id": 253,
-      "hougen": "うちなー　ゆー",
-      "japanese": "沖縄世"
-    },
-    {
-      "id": 254,
-      "hougen": "うちながにー",
-      "japanese": "肩ロース"
-    },
-    {
-      "id": 255,
-      "hougen": "うちなすん",
-      "japanese": "済ます",
-      "category": "うちなちゃん",
-      "usage_example": "うちなさん"
-    },
-    {
-      "id": 256,
-      "hougen": "うちゃいん",
-      "japanese": "似合う",
-      "category": "うちゃたん",
-      "usage_example": "うちゃらん"
-    },
-    {
-      "id": 257,
-      "hougen": "うちゃたい　かなたい　すん",
-      "japanese": "たがいによく似合う",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 258,
-      "hougen": "うちゃーすん",
-      "japanese": "打ち合わす",
-      "category": "協力する",
-      "usage_example": "うちゃーちゃん"
-    },
-    {
-      "id": 259,
-      "hougen": "うちゃがいん",
-      "japanese": "見違える",
-      "category": "うちゃがたん",
-      "usage_example": "うちゃがらん"
-    },
-    {
-      "id": 260,
-      "hougen": "うちゃぎーん",
-      "japanese": "上に向く",
-      "category": "うちゃぎたん",
-      "usage_example": "うちゃぎらん"
-    },
-    {
-      "id": 261,
-      "hougen": "うちゃとー　みんとー",
-      "japanese": "お茶とお水のお供え"
-    },
-    {
-      "id": 262,
-      "hougen": "うちゃ　ふかしぇー",
-      "japanese": "お茶会"
-    },
-    {
-      "id": 263,
-      "hougen": "うちゃく",
-      "japanese": "お客"
-    },
-    {
-      "id": 264,
-      "hougen": "うちゅくぃー",
-      "japanese": "ふろしき"
-    },
-    {
-      "id": 265,
-      "hougen": "うちゅすん",
-      "japanese": "映す",
-      "category": "移す",
-      "usage_example": "うちゅちゃん"
-    },
-    {
-      "id": 266,
-      "hougen": "うちゅん",
-      "japanese": "打つ",
-      "category": "うちゃん",
-      "usage_example": "うたん"
-    },
-    {
-      "id": 267,
-      "hougen": "うちゅん",
-      "japanese": "浮く",
-      "category": "うちゃん",
-      "usage_example": "うかん"
-    },
-    {
-      "id": 268,
-      "hougen": "うちぇー　かねー　すん",
-      "japanese": "兼ね備える",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 269,
-      "hougen": "うちぇーいみしぇーん",
-      "japanese": "おいで遊ばす",
-      "category": "うちぇーいみそーちゃん",
-      "usage_example": "うちぇーいみそーらん"
-    },
-    {
-      "id": 270,
-      "hougen": "うちり　びー",
-      "japanese": "おき火",
-      "category": "赤く熱した炭火"
-    },
-    {
-      "id": 271,
-      "hougen": "うてぃーん",
-      "japanese": "落ちる",
-      "category": "うてぃたん",
-      "usage_example": "うてぃらん"
-    },
+        "id": 9,
+        "hougen": "あーすん",
+        "japanese": "①合わす",
+        "category": "動詞"
+    },
+    {
+        "id": 10,
+        "hougen": "あい",
+        "japanese": "あいこー",
+        "category": ""
+    },
+    {
+        "id": 11,
+        "hougen": "あか",
+        "japanese": "（頭髪",
+        "category": ""
+    },
+    {
+        "id": 12,
+        "hougen": "あか",
+        "japanese": "赤",
+        "category": "形容詞"
+    },
+    {
+        "id": 13,
+        "hougen": "あがいん",
+        "japanese": "①上がる",
+        "category": "動詞"
+    },
+    {
+        "id": 14,
+        "hougen": "あかがいん",
+        "japanese": "明るくなる",
+        "category": "形容詞"
+    },
+    {
+        "id": 15,
+        "hougen": "あかすん",
+        "japanese": "開ける",
+        "category": "動詞"
+    },
+    {
+        "id": 16,
+        "hougen": "あがた",
+        "japanese": "あちら",
+        "category": "観光・道案内"
+    },
     {
-      "id": 272,
-      "hougen": "うっか",
-      "japanese": "負債"
-    },
-    {
-      "id": 273,
-      "hougen": "うっけーりーん",
-      "japanese": "転ぶ",
-      "category": "反転する",
-      "usage_example": "うっけーりたん"
-    },
-    {
-      "id": 274,
-      "hougen": "うっけーらすん",
-      "japanese": "ひっくり返す",
-      "category": "うっけーらちゃん",
-      "usage_example": "うっけーらさん"
-    },
-    {
-      "id": 275,
-      "hougen": "うっくるぶん",
-      "japanese": "転倒する",
-      "category": "うっくるだん",
-      "usage_example": "うっくるばん"
-    },
-    {
-      "id": 276,
-      "hougen": "うっさ〜",
-      "japanese": "嬉しさ"
-    },
-    {
-      "id": 277,
-      "hougen": "うったー",
-      "japanese": "その人たち"
-    },
-    {
-      "id": 278,
-      "hougen": "うっちゃかいん",
-      "japanese": "よりかかる",
-      "category": "頼る",
-      "usage_example": "うっちゃかたん"
-    },
-    {
-      "id": 279,
-      "hougen": "うっちゃんぎーん",
-      "japanese": "放り出す",
-      "category": "置き去りにする",
-      "usage_example": "うっちゃんぎたん"
-    },
-    {
-      "id": 280,
-      "hougen": "うっちぇーいん",
-      "japanese": "裏返る",
-      "category": "うっちぇーたん",
-      "usage_example": "うっちぇーらん"
-    },
-    {
-      "id": 281,
-      "hougen": "うっちぇーすん",
-      "japanese": "裏返す",
-      "category": "うっちぇーちゃん",
-      "usage_example": "うっちぇーさん"
-    },
-    {
-      "id": 282,
-      "hougen": "うっちん",
-      "japanese": "ウコン"
-    },
-    {
-      "id": 283,
-      "hougen": "うってーいん",
-      "japanese": "訴える",
-      "category": "うってーたん",
-      "usage_example": "うってーてぃ"
-    },
-    {
-      "id": 284,
-      "hougen": "うっとぅ",
-      "japanese": "年下",
-      "category": "弟妹"
-    },
-    {
-      "id": 285,
-      "hougen": "うっとぅばすん",
-      "japanese": "吹き飛ばす",
-      "category": "うっとぅばちゃん",
-      "usage_example": "うっとぅばさん"
-    },
-    {
-      "id": 286,
-      "hougen": "うっぴ",
-      "japanese": "それだけの大きさ"
-    },
-    {
-      "id": 287,
-      "hougen": "うてぃちち",
-      "japanese": "落ち着き",
-      "category": "沈着さ"
-    },
-    {
-      "id": 288,
-      "hougen": "うでぃ　まっくゎ",
-      "japanese": "腕枕"
-    },
-    {
-      "id": 289,
-      "hougen": "うてぃら　めー",
-      "japanese": "拝所参り",
-      "category": "お寺参り"
-    },
-    {
-      "id": 290,
-      "hougen": "うとぅ",
-      "japanese": "音",
-      "category": "便り",
-      "usage_example": "評判"
-    },
-    {
-      "id": 291,
-      "hougen": "うとぅいむち",
-      "japanese": "接待",
-      "category": "おもてなし"
-    },
-    {
-      "id": 292,
-      "hougen": "うどぅきーん",
-      "japanese": "商売で失敗する",
-      "category": "うどぅきたん",
-      "usage_example": "うどぅきらん"
-    },
-    {
-      "id": 293,
-      "hougen": "うとぅげー　なんどぅるー",
-      "japanese": "顎がツルツルしている者",
-      "category": "髭のない者"
-    },
-    {
-      "id": 294,
-      "hougen": "うとぅすん",
-      "japanese": "移す",
-      "category": "うとぅちゃん",
-      "usage_example": "うとぅさん"
-    },
-    {
-      "id": 295,
-      "hougen": "うとぅすん",
-      "japanese": "落とす",
-      "category": "うとぅちゃん",
-      "usage_example": "うとぅさん"
-    },
-    {
-      "id": 296,
-      "hougen": "うどぅるちゅん",
-      "japanese": "驚く",
-      "category": "うどぅるちゃん",
-      "usage_example": "うどぅるかん"
-    },
-    {
-      "id": 297,
-      "hougen": "うどぅるかすん",
-      "japanese": "驚かす",
-      "category": "うどぅるかちゃん",
-      "usage_example": "うどぅるかさん"
-    },
-    {
-      "id": 298,
-      "hougen": "う〜",
-      "japanese": "中称の指示詞"
-    },
-    {
-      "id": 299,
-      "hougen": "う　なぎー",
-      "japanese": "それぐらいの長さ"
-    },
-    {
-      "id": 300,
-      "hougen": "うはち",
-      "japanese": "お初"
-    },
-    {
-      "id": 301,
-      "hougen": "うびーん",
-      "japanese": "憶える",
-      "category": "うびたん",
-      "usage_example": "うびらん"
-    },
-    {
-      "id": 302,
-      "hougen": "うびーなでぃー",
-      "japanese": "水撫で"
-    },
-    {
-      "id": 303,
-      "hougen": "うびらじ　ぐとぅ",
-      "japanese": "不意の出来事"
-    },
-    {
-      "id": 304,
-      "hougen": "うぶく",
-      "japanese": "神仏に供えるご飯"
-    },
-    {
-      "id": 305,
-      "hougen": "うふ〜",
-      "japanese": "多",
-      "category": "大"
-    },
-    {
-      "id": 306,
-      "hougen": "うぶん　にぢり",
-      "japanese": "握り飯"
-    },
-    {
-      "id": 307,
-      "hougen": "うぶちだん",
-      "japanese": "お仏壇"
-    },
-    {
-      "id": 308,
-      "hougen": "うまちー",
-      "japanese": "農耕のお祭り"
-    },
-    {
-      "id": 309,
-      "hougen": "うまんちゅ",
-      "japanese": "多くの人"
-    },
-    {
-      "id": 310,
-      "hougen": "うみ〜",
-      "japanese": "〜様"
-    },
-    {
-      "id": 311,
-      "hougen": "うみ",
-      "japanese": "海"
-    },
-    {
-      "id": 312,
-      "hougen": "うみかきーん",
-      "japanese": "お目にかける",
-      "category": "ご覧にいれる",
-      "usage_example": "うみかきたん"
-    },
-    {
-      "id": 313,
-      "hougen": "うむいん",
-      "japanese": "思う",
-      "category": "うむたん",
-      "usage_example": "うむらん"
-    },
-    {
-      "id": 314,
-      "hougen": "うむてぃ",
-      "japanese": "表"
-    },
-    {
-      "id": 315,
-      "hougen": "うむる　うそーし",
-      "japanese": "おもろ御そうし"
-    },
-    {
-      "id": 316,
-      "hougen": "うめーし",
-      "japanese": "めーし",
-      "category": "お箸",
-      "usage_example": "箸"
-    },
-    {
-      "id": 317,
-      "hougen": "うや",
-      "japanese": "親"
-    },
-    {
-      "id": 318,
-      "hougen": "うやぎー",
-      "japanese": "お祝いの金銭や物資の援助"
-    },
-    {
-      "id": 319,
-      "hougen": "うゆばん",
-      "japanese": "及ばない"
-    },
-    {
-      "id": 320,
-      "hougen": "うゆうぇー／うーうぇー",
-      "japanese": "お祝い"
-    },
-    {
-      "id": 321,
-      "hougen": "うら",
-      "japanese": "裏"
-    },
-    {
-      "id": 322,
-      "hougen": "うらーきーん",
-      "japanese": "水に浸す",
-      "category": "うらきたん",
-      "usage_example": "うらきらん"
-    },
-    {
-      "id": 323,
-      "hougen": "うらんだー",
-      "japanese": "西洋人"
-    },
-    {
-      "id": 324,
-      "hougen": "うり　さい／たい",
-      "japanese": "ほら（目上に）",
-      "usage_example": "ゆぇーっ〈ほら（目下に）〉"
-    },
-    {
-      "id": 325,
-      "hougen": "うりーっさ",
-      "japanese": "うり　ひゃー",
-      "category": "それっ（目下に）"
-    },
-    {
-      "id": 326,
-      "hougen": "うり／あり／くり",
-      "japanese": "それ／あれ／これ"
-    },
-    {
-      "id": 327,
-      "hougen": "うりかー／ありかー／くりかー",
-      "japanese": "その辺り／あの辺り／この辺り"
-    },
-    {
-      "id": 328,
-      "hougen": "っんまかー",
-      "japanese": "その辺り"
-    },
-    {
-      "id": 329,
-      "hougen": "うりーん",
-      "japanese": "降りる",
-      "category": "うりたん",
-      "usage_example": "うりらん"
-    },
-    {
-      "id": 330,
-      "hougen": "うりーん",
-      "japanese": "売れる",
-      "category": "うりたん",
-      "usage_example": "うりらん"
-    },
-    {
-      "id": 331,
-      "hougen": "うりー",
-      "japanese": "潤い"
-    },
-    {
-      "id": 332,
-      "hougen": "うりじん",
-      "japanese": "旧暦2〜3月",
-      "category": "初春"
-    },
-    {
-      "id": 333,
-      "hougen": "うる",
-      "japanese": "砂",
-      "category": "砂利",
-      "usage_example": "珊瑚の骨軸"
-    },
-    {
-      "id": 334,
-      "hougen": "うるすん",
-      "japanese": "下ろす",
-      "category": "うるちゃん",
-      "usage_example": "うるさん"
-    },
-    {
-      "id": 335,
-      "hougen": "うるにー　なまにー　すん",
-      "japanese": "半煮えにする",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 336,
-      "hougen": "〜うるみ",
-      "japanese": "〜頃"
-    },
-    {
-      "id": 337,
-      "hougen": "うわいん",
-      "japanese": "終わる",
-      "category": "うわたん",
-      "usage_example": "うわらん"
-    },
-    {
-      "id": 338,
-      "hougen": "うんけー　すん",
-      "japanese": "お迎えする",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 339,
-      "hougen": "うんじゅ",
-      "japanese": "あなた様",
-      "category": "ご自身"
-    },
-    {
-      "id": 340,
-      "hougen": "うんち／ぬんち／みゅんち",
-      "japanese": "お顔"
-    },
-    {
-      "id": 341,
-      "hougen": "うんちょーび／ぬんちょーび／みゅんちょーび",
-      "japanese": "髪の敬称"
-    },
-    {
-      "id": 342,
-      "hougen": "うんちぇー　すん",
-      "japanese": "お借りする",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 343,
-      "hougen": "うんちけー　する",
-      "japanese": "案内",
-      "category": "お迎え",
-      "usage_example": "ご招待する"
-    },
-    {
-      "id": 344,
-      "hougen": "うんぬかゆん",
-      "japanese": "お聞きになる",
-      "category": "うんぬかたん",
-      "usage_example": "うんぬからん"
-    },
-    {
-      "id": 345,
-      "hougen": "うんぬきーん",
-      "japanese": "申し上げる",
-      "category": "うんぬきたん",
-      "usage_example": "うんぬきらん"
-    },
-    {
-      "id": 346,
-      "hougen": "えーじ",
-      "japanese": "合図"
-    },
-    {
-      "id": 347,
-      "hougen": "えーじゅー",
-      "japanese": "同僚",
-      "category": "仲間"
-    },
-    {
-      "id": 348,
-      "hougen": "えーすん",
-      "japanese": "潰す",
-      "category": "えーちゃん",
-      "usage_example": "えーさん"
-    },
-    {
-      "id": 349,
-      "hougen": "えーてぃ",
-      "japanese": "相手"
-    },
-    {
-      "id": 350,
-      "hougen": "えー　むん",
-      "japanese": "和え物"
-    },
-    {
-      "id": 351,
-      "hougen": "おーいん",
-      "japanese": "頭をあわせてけんかする",
-      "category": "おーたん",
-      "usage_example": "おーらん"
-    },
-    {
-      "id": 352,
-      "hougen": "おーじゃー",
-      "japanese": "青",
-      "usage_example": "おーるー〈青色〉"
-    },
-    {
-      "id": 353,
-      "hougen": "おーぐらしん",
-      "japanese": "真っ暗闇"
-    },
-    {
-      "id": 354,
-      "hougen": "おーだー",
-      "japanese": "もっこ"
-    },
-    {
-      "id": 355,
-      "hougen": "おーちび",
-      "japanese": "ビリ"
-    },
-    {
-      "id": 356,
-      "hougen": "おーぢゅん",
-      "japanese": "扇ぐ",
-      "category": "おーぢゅん",
-      "usage_example": "おーがん"
-    },
-    {
-      "id": 357,
-      "hougen": "おーとー",
-      "japanese": "ミカンの一種"
-    },
-    {
-      "id": 358,
-      "hougen": "おーふぃじゅる　かんじゃー",
-      "japanese": "寒々とした霊気"
-    },
-    {
-      "id": 359,
-      "hougen": "かー",
-      "japanese": "井戸"
-    },
-    {
-      "id": 360,
-      "hougen": "かー",
-      "japanese": "皮"
-    },
-    {
-      "id": 361,
-      "hougen": "がー",
-      "japanese": "意地",
-      "category": "自我"
-    },
-    {
-      "id": 362,
-      "hougen": "かーがー",
-      "japanese": "（水面",
-      "category": "鏡",
-      "usage_example": "地面などに）映る影"
-    },
-    {
-      "id": 363,
-      "hougen": "かーぎ",
-      "japanese": "容貌",
-      "category": "姿",
-      "usage_example": "陰"
-    },
-    {
-      "id": 364,
-      "hougen": "かーかすん",
-      "japanese": "干す",
-      "category": "乾かす",
-      "usage_example": "かーかちゃん"
-    },
-    {
-      "id": 365,
-      "hougen": "かーきー",
-      "japanese": "指切りげんまん"
-    },
-    {
-      "id": 366,
-      "hougen": "かーきーん",
-      "japanese": "乾く",
-      "category": "渇く",
-      "usage_example": "かーきたん"
-    },
-    {
-      "id": 367,
-      "hougen": "かーさ",
-      "japanese": "広い葉"
-    },
-    {
-      "id": 368,
-      "hougen": "かーじ／かじ",
-      "japanese": "たびに"
-    },
-    {
-      "id": 369,
-      "hougen": "かーたー",
-      "japanese": "偏った",
-      "category": "〜のような"
-    },
-    {
-      "id": 370,
-      "hougen": "かーちー",
-      "japanese": "夏至"
-    },
-    {
-      "id": 371,
-      "hougen": "がーなー",
-      "japanese": "たんこぶ"
-    },
-    {
-      "id": 372,
-      "hougen": "かーぶちー",
-      "japanese": "ミカンの一種"
-    },
-    {
-      "id": 373,
-      "hougen": "かーぶやー",
-      "japanese": "コウモリ"
-    },
-    {
-      "id": 374,
-      "hougen": "かーみ",
-      "japanese": "甕"
-    },
-    {
-      "id": 375,
-      "hougen": "かーみー",
-      "japanese": "亀"
-    },
-    {
-      "id": 376,
-      "hougen": "かーらちゅん",
-      "japanese": "乾く",
-      "category": "かーらちゃん",
-      "usage_example": "かーらかん"
-    },
-    {
-      "id": 377,
-      "hougen": "かいん",
-      "japanese": "借りる",
-      "category": "かたん",
-      "usage_example": "からん"
-    },
-    {
-      "id": 378,
-      "hougen": "かいん",
-      "japanese": "苅る",
-      "category": "かたん",
-      "usage_example": "からん"
-    },
-    {
-      "id": 379,
-      "hougen": "かかいん",
-      "japanese": "世話になる",
-      "category": "かかる",
-      "usage_example": "かかたん"
-    },
-    {
-      "id": 380,
-      "hougen": "かかいん",
-      "japanese": "詰め寄る",
-      "category": "引っかかる",
-      "usage_example": "かかたん"
-    },
-    {
-      "id": 381,
-      "hougen": "かかじーん",
-      "japanese": "かじる",
-      "category": "かかじたん",
-      "usage_example": "かかじらん"
-    },
-    {
-      "id": 382,
-      "hougen": "かかわい",
-      "japanese": "かかわり"
-    },
-    {
-      "id": 383,
-      "hougen": "かかん",
-      "japanese": "下裳"
-    },
-    {
-      "id": 384,
-      "hougen": "かきあーいん",
-      "japanese": "間に合う",
-      "category": "かきあーたん",
-      "usage_example": "かきあーらん"
-    },
-    {
-      "id": 385,
-      "hougen": "かきあーすん",
-      "japanese": "間に合わす",
-      "category": "かきあーちゃん",
-      "usage_example": "かきあーさん"
-    },
-    {
-      "id": 386,
-      "hougen": "かきーん",
-      "japanese": "掛ける",
-      "category": "かきたん",
-      "usage_example": "かきらん"
-    },
-    {
-      "id": 387,
-      "hougen": "かきーん",
-      "japanese": "賭ける",
-      "category": "かきたん",
-      "usage_example": "かきらん"
-    },
-    {
-      "id": 388,
-      "hougen": "かぎーん",
-      "japanese": "欠席する",
-      "category": "かぎたん",
-      "usage_example": "かぎらん"
-    },
-    {
-      "id": 389,
-      "hougen": "かきむん",
-      "japanese": "欠けたもの"
-    },
-    {
-      "id": 390,
-      "hougen": "かく",
-      "japanese": "癌",
-      "category": "難病"
-    },
-    {
-      "id": 391,
-      "hougen": "がく　ぶり",
-      "japanese": "学問以外は何も知らない人"
-    },
-    {
-      "id": 392,
-      "hougen": "かくい",
-      "japanese": "囲い",
-      "category": "垣根"
-    },
-    {
-      "id": 393,
-      "hougen": "かくぐ　すん",
-      "japanese": "大切にしまい込む",
-      "category": "〜さん",
-      "usage_example": "〜さん"
-    },
-    {
-      "id": 394,
-      "hougen": "かくじ",
-      "japanese": "下顎全体",
-      "usage_example": "うとぅげー〈顎の尖った部分"
-    },
-    {
-      "id": 395,
-      "hougen": "かくすん",
-      "japanese": "（他に知られないように）隠す",
-      "category": "かくちゃん",
-      "usage_example": "かくさん"
-    },
-    {
-      "id": 396,
-      "hougen": "かくびち",
-      "japanese": "とても好いもの",
-      "category": "おいしいもの",
-      "usage_example": "いい仲"
-    },
-    {
-      "id": 397,
-      "hougen": "かくむん",
-      "japanese": "囲む"
-    },
-    {
-      "id": 398,
-      "hougen": "かくり　ぶし",
-      "japanese": "人前ではその気配を見せない達人"
-    },
-    {
-      "id": 399,
-      "hougen": "かげーいん",
-      "japanese": "支配する",
-      "category": "かげーたん",
-      "usage_example": "かげーらん"
-    },
-    {
-      "id": 400,
-      "hougen": "かさかさー",
-      "japanese": "乾燥したさま",
-      "category": "ごわごわしたさま"
-    },
+        "id": 17,
+        "hougen": "あがち",
+        "japanese": "ヤンバルクイナ",
+        "category": "自然や地理に関連する言葉"
+    },
+    {
+        "id": 18,
+        "hougen": "あがちゅん",
+        "japanese": "①よく働く",
+        "category": "動詞"
+    },
+    {
+        "id": 19,
+        "hougen": "あかちち",
+        "japanese": "夜明け",
+        "category": "自然や地理に関連する言葉"
+    },
+    {
+        "id": 20,
+        "hougen": "あがとー",
+        "japanese": "あんな遠く",
+        "category": "観光・道案内"
+    },
+    
+        {
+            "id": 21,
+            "hougen": "あがねーいん",
+            "japanese": "節約する",
+            "category": "動詞",
+            "usage_example": "あがねーらん"
+        },
+        {
+            "id": 22,
+            "hougen": "あがみーん",
+            "japanese": "敬う",
+            "category": "動詞",
+            "usage_example": "あがみらん"
+        },
+        {
+            "id": 23,
+            "hougen": "あがらすん",
+            "japanese": "揚げる",
+            "category": "動詞",
+            "usage_example": "あがらさん"
+        },
+        {
+            "id": 24,
+            "hougen": "あがらすん",
+            "japanese": "完成させる",
+            "category": "動詞",
+            "usage_example": "あがらさん"
+        },
+        {
+            "id": 25,
+            "hougen": "あぎ",
+            "japanese": "陸",
+            "category": "自然や地理に関連する言葉"
+        },
+        {
+            "id": 26,
+            "hougen": "あきーん",
+            "japanese": "開く",
+            "category": "動詞",
+            "usage_example": "あきらん"
+        },
+        {
+            "id": 27,
+            "hougen": "あぎまーすん",
+            "japanese": "せきたてる",
+            "category": "動詞",
+            "usage_example": "あぎまーさん"
+        },
+        {
+            "id": 28,
+            "hougen": "あきま　どぅし",
+            "japanese": "新年",
+            "category": "文化・伝統に関する単語"
+        },
+        {
+            "id": 29,
+            "hougen": "あこーくろー",
+            "japanese": "夕暮れ",
+            "category": "自然や地理に関連する言葉"
+        },
+        {
+            "id": 30,
+            "hougen": "あさ",
+            "japanese": "朝",
+            "category": "自然や地理に関連する言葉"
+        },
+        {
+            "id": 31,
+            "hougen": "あさぐいん",
+            "japanese": "勝手にかき回す",
+            "category": "動詞",
+            "usage_example": "あさぐらん"
+        },
+        {
+            "id": 32,
+            "hougen": "あし",
+            "japanese": "足",
+            "category": "身体に関する言葉"
+        },
+        {
+            "id": 33,
+            "hougen": "あし",
+            "japanese": "汗",
+            "category": "身体に関する言葉"
+        },
+        {
+            "id": 34,
+            "hougen": "あしがちゅん",
+            "japanese": "あせる",
+            "category": "動詞",
+            "usage_example": "あしがかん"
+        },
+        {
+            "id": 35,
+            "hougen": "あじけー",
+            "japanese": "シャコガイ",
+            "category": "自然や地理に関連する言葉"
+        },
+        {
+            "id": 36,
+            "hougen": "あしぶん",
+            "japanese": "遊ぶ",
+            "category": "動詞",
+            "usage_example": "あしばん"
+        },
+        {
+            "id": 37,
+            "hougen": "あしぶ",
+            "japanese": "あせも",
+            "category": "身体に関する言葉"
+        },
+        {
+            "id": 38,
+            "hougen": "あじまー",
+            "japanese": "交差するところ",
+            "category": "観光・道案内"
+        },
+        {
+            "id": 39,
+            "hougen": "あたい",
+            "japanese": "くらい",
+            "category": "形容詞"
+        },
+        {
+            "id": 40,
+            "hougen": "あたいん",
+            "japanese": "あたる",
+            "category": "動詞",
+            "usage_example": "あたらん"
+        },
+        {
+            "id": 41,
+            "hougen": "あち〜",
+            "japanese": "暑",
+            "category": "形容詞",
+            "usage_example": "厚"
+        },
+        {
+            "id": 42,
+            "hougen": "あちかいん",
+            "japanese": "①あつかう",
+            "category": "動詞",
+            "usage_example": "あちかたん"
+        },
+        {
+            "id": 43,
+            "hougen": "あちまいん",
+            "japanese": "集まる",
+            "category": "動詞",
+            "usage_example": "あちまらん"
+        },
+        {
+            "id": 44,
+            "hougen": "あちゃー",
+            "japanese": "明日",
+            "category": "自然や地理に関連する言葉"
+        },
+        {
+            "id": 45,
+            "hougen": "あちゅん",
+            "japanese": "明く",
+            "category": "動詞",
+            "usage_example": "空く"
+        },
+        
+            {
+                "id": 46,
+                "hougen": "あちらすん",
+                "japanese": "食べ物を暖める",
+                "category": "動詞",
+                "usage_example": "あちらさん"
+            },
+            {
+                "id": 47,
+                "hougen": "あちりーん",
+                "japanese": "熱くなる",
+                "category": "形容詞",
+                "usage_example": "あちりらん"
+            },
+            {
+                "id": 48,
+                "hougen": "あちれーゆん",
+                "japanese": "注文して仕立てる",
+                "category": "動詞",
+                "usage_example": "あちれーらん"
+            },
+            {
+                "id": 49,
+                "hougen": "あっく　すん",
+                "japanese": "（上から目線で）叱りつける",
+                "category": "動詞",
+                "usage_example": "〜さん"
+            },
+            {
+                "id": 50,
+                "hougen": "あった〜",
+                "japanese": "急",
+                "category": "形容詞"
+            },
+            {
+                "id": 51,
+                "hougen": "あったみ",
+                "japanese": "精肉",
+                "category": "食事・買い物関連"
+            },
+            {
+                "id": 52,
+                "hougen": "あったる",
+                "japanese": "大事な",
+                "category": "形容詞"
+            },
+            {
+                "id": 53,
+                "hougen": "あっちゅん",
+                "japanese": "動きまわる",
+                "category": "動詞",
+                "usage_example": "歩く"
+            },
+            {
+                "id": 54,
+                "hougen": "あっぺーる／うっぺーる／くっぺーる",
+                "japanese": "あの／その／この大きさ",
+                "category": "形容詞"
+            },
+            {
+                "id": 55,
+                "hougen": "あてぃ",
+                "japanese": "思慮",
+                "category": "形容詞"
+            },
+            {
+                "id": 56,
+                "hougen": "あてぃーん",
+                "japanese": "当てる",
+                "category": "動詞",
+                "usage_example": "あてぃらん"
+            },
+            {
+                "id": 57,
+                "hougen": "あとぅ　しーちゅん",
+                "japanese": "後ずさりする",
+                "category": "動詞",
+                "usage_example": "〜しーかん"
+            },
+            {
+                "id": 58,
+                "hougen": "あとぅない　あとぅない",
+                "japanese": "後ろにひっこむこと",
+                "category": "動詞"
+            },
+            {
+                "id": 59,
+                "hougen": "あとぅまさい　がふー",
+                "japanese": "後の方の幸運こそ勝る",
+                "category": "日常会話"
+            },
+            {
+                "id": 60,
+                "hougen": "あばさー",
+                "japanese": "あばし",
+                "category": "文化・伝統に関する単語",
+                "usage_example": "針千本"
+            },
+            {
+                "id": 61,
+                "hougen": "あびーん",
+                "japanese": "大声をだす",
+                "category": "動詞",
+                "usage_example": "しゃべる"
+            },
+            {
+                "id": 62,
+                "hougen": "あふぁげーりーん",
+                "japanese": "気持ちを萎縮させる",
+                "category": "形容詞",
+                "usage_example": "あふぁげーりらん"
+            },
+            {
+                "id": 63,
+                "hougen": "あふぁなちゅん",
+                "japanese": "寝るの卑語",
+                "category": "動詞",
+                "usage_example": "あふぁなかん"
+            },
+            {
+                "id": 64,
+                "hougen": "あふぃー",
+                "japanese": "兄さん（平民）",
+                "category": "家族や人に関する言葉",
+                "usage_example": "やっちー〈兄さん（士族）〉"
+            },
+            {
+                "id": 65,
+                "hougen": "あふぃらー",
+                "japanese": "アヒル",
+                "category": "自然や地理に関連する言葉"
+            },
+            {
+                "id": 66,
+                "hougen": "あふぇーいん",
+                "japanese": "（気が）抜けて水っぽくなる",
+                "category": "形容詞",
+                "usage_example": "あふぇーらん"
+            },
+            {
+                "id": 67,
+                "hougen": "あまいん",
+                "japanese": "余る",
+                "category": "動詞",
+                "usage_example": "あまらん"
+            },
+            {
+                "id": 68,
+                "hougen": "あますん",
+                "japanese": "元気が有り余っている",
+                "category": "動詞",
+                "usage_example": "あまさん"
+            },
+            {
+                "id": 69,
+                "hougen": "あまみ／あまん　ゆー",
+                "japanese": "大昔",
+                "category": "文化・伝統に関する単語"
+            },
+            {
+                "id": 70,
+                "hougen": "あまぐゎし",
+                "japanese": "ぜんざい",
+                "category": "食事・買い物関連"
+            },
+            {
+                "id": 71,
+                "hougen": "あまじゃき",
+                "japanese": "酢",
+                "category": "食事・買い物関連"
+            },
+            {
+                "id": 72,
+                "hougen": "あや",
+                "japanese": "綾",
+                "category": "文化・伝統に関する単語"
+            },
+            {
+                "id": 73,
+                "hougen": "あやー",
+                "japanese": "お母さん（士族）",
+                "category": "家族や人に関する言葉"
+            },
+            {
+                "id": 74,
+                "hougen": "あやめー　くさめー",
+                "japanese": "まつわりついてじゃますること",
+                "category": "動詞"
+            },
+            {
+                "id": 75,
+                "hougen": "あやかーいん",
+                "japanese": "あやかる",
+                "category": "動詞",
+                "usage_example": "あやかーらん"
+            },
+            
+                {
+                    "id": 76,
+                    "hougen": "あやかーらすん",
+                    "japanese": "あやからす",
+                    "category": "動詞",
+                    "usage_example": "あやかーらさん"
+                },
+                {
+                    "id": 77,
+                    "hougen": "あやまいん",
+                    "japanese": "あやまちをする",
+                    "category": "動詞",
+                    "usage_example": "あやまらん"
+                },
+                {
+                    "id": 78,
+                    "hougen": "あらがーいん",
+                    "japanese": "口論する",
+                    "category": "動詞",
+                    "usage_example": "あらがーたん"
+                },
+                {
+                    "id": 79,
+                    "hougen": "あらげーいん",
+                    "japanese": "大きくなり過ぎる",
+                    "category": "形容詞",
+                    "usage_example": "あらげーらん"
+                },
+                {
+                    "id": 80,
+                    "hougen": "あらむん",
+                    "japanese": "粗末な食べ物",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 81,
+                    "hougen": "あり",
+                    "japanese": "あれ",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 82,
+                    "hougen": "あわてぃーん",
+                    "japanese": "急ぐ",
+                    "category": "動詞",
+                    "usage_example": "あわてぃらん"
+                },
+                {
+                    "id": 83,
+                    "hougen": "あわり",
+                    "japanese": "苦労",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 84,
+                    "hougen": "あん",
+                    "japanese": "ある",
+                    "category": "動詞"
+                },
+                {
+                    "id": 85,
+                    "hougen": "あんしー　かんしー　すん",
+                    "japanese": "あれこれ試行する",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 86,
+                    "hougen": "あんぢゅん",
+                    "japanese": "焼く",
+                    "category": "動詞",
+                    "usage_example": "あんたん"
+                },
+                {
+                    "id": 87,
+                    "hougen": "あんだ",
+                    "japanese": "油",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 88,
+                    "hougen": "あんでぃーん",
+                    "japanese": "こぼれる",
+                    "category": "動詞",
+                    "usage_example": "あんでぃらん"
+                },
+                {
+                    "id": 89,
+                    "hougen": "あんだすん",
+                    "japanese": "こぼす",
+                    "category": "動詞",
+                    "usage_example": "あんださん"
+                },
+                {
+                    "id": 90,
+                    "hougen": "あんべー",
+                    "japanese": "あんばい",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 91,
+                    "hougen": "あんまー",
+                    "japanese": "お母さん（平民）",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 92,
+                    "hougen": "〜い",
+                    "japanese": "時",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 93,
+                    "hougen": "いーけーりーん",
+                    "japanese": "中味がすっかりこぼれる",
+                    "category": "動詞",
+                    "usage_example": "いーけーりらん"
+                },
+                {
+                    "id": 94,
+                    "hougen": "いーけーらすん",
+                    "japanese": "中味をすっかりこぼす",
+                    "category": "動詞",
+                    "usage_example": "いーけーさん"
+                },
+                {
+                    "id": 95,
+                    "hougen": "いーち",
+                    "japanese": "息",
+                    "category": "身体に関する言葉"
+                },
+                {
+                    "id": 96,
+                    "hougen": "いーちゅ",
+                    "japanese": "絹",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 97,
+                    "hougen": "いーび",
+                    "japanese": "指",
+                    "category": "身体に関する言葉"
+                },
+                {
+                    "id": 98,
+                    "hougen": "いーふぇー",
+                    "japanese": "位牌",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 99,
+                    "hougen": "いーらー",
+                    "japanese": "くらげ",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 100,
+                    "hougen": "いーん",
+                    "japanese": "言う",
+                    "category": "動詞",
+                    "usage_example": "いらん"
+                },
+
+                {
+                    "id": 101,
+                    "hougen": "いーん",
+                    "japanese": "入る",
+                    "category": "動詞",
+                    "usage_example": "いらん"
+                },
+                {
+                    "id": 102,
+                    "hougen": "いーん",
+                    "japanese": "要る",
+                    "category": "動詞",
+                    "usage_example": "いらん"
+                },
+                {
+                    "id": 103,
+                    "hougen": "いく〜",
+                    "japanese": "幾",
+                    "category": ""
+                },
+                {
+                    "id": 104,
+                    "hougen": "いくさ",
+                    "japanese": "戦争",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 105,
+                    "hougen": "いぐますん",
+                    "japanese": "計画する",
+                    "category": "動詞",
+                    "usage_example": "いぐまさん"
+                },
+                {
+                    "id": 106,
+                    "hougen": "いさとぅー",
+                    "japanese": "カマキリ",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 107,
+                    "hougen": "いさみーん",
+                    "japanese": "励ます",
+                    "category": "動詞",
+                    "usage_example": "いさみらん"
+                },
+                {
+                    "id": 108,
+                    "hougen": "いし",
+                    "japanese": "石",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 109,
+                    "hougen": "いしぇー",
+                    "japanese": "くわしいこと",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 110,
+                    "hougen": "いそーさ　すん",
+                    "japanese": "嬉しがる",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 111,
+                    "hougen": "いた　ぢり",
+                    "japanese": "板切れ",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 112,
+                    "hougen": "いち",
+                    "japanese": 1,
+                    "category": ""
+                },
+                {
+                    "id": 113,
+                    "hougen": "いち",
+                    "japanese": "池",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 114,
+                    "hougen": "いち",
+                    "japanese": "いつ",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 115,
+                    "hougen": "いぢ",
+                    "japanese": "勇気",
+                    "category": "形容詞",
+                    "usage_example": "怒り"
+                },
+                {
+                    "id": 116,
+                    "hougen": "いちか",
+                    "japanese": "いつか",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 117,
+                    "hougen": "いちちゅん",
+                    "japanese": "生きる",
+                    "category": "動詞",
+                    "usage_example": "いちかん"
+                },
+                {
+                    "id": 118,
+                    "hougen": "いちかすん",
+                    "japanese": "生かす",
+                    "category": "動詞",
+                    "usage_example": "いちかさん"
+                },
+                {
+                    "id": 119,
+                    "hougen": "いちまん",
+                    "japanese": "糸満",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 120,
+                    "hougen": "いぢり",
+                    "japanese": "意気地",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 121,
+                    "hougen": "いちん",
+                    "japanese": "意見",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 122,
+                    "hougen": "いちゃーすん",
+                    "japanese": "引き逢わす",
+                    "category": "動詞",
+                    "usage_example": "いちゃーちゃん"
+                },
+                {
+                    "id": 123,
+                    "hougen": "いちゃいん",
+                    "japanese": "出逢う",
+                    "category": "動詞",
+                    "usage_example": "いちゃらん"
+                },
+                {
+                    "id": 124,
+                    "hougen": "いちゃさ　すん",
+                    "japanese": "惜しむ",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 125,
+                    "hougen": "いちゃ　がらすー",
+                    "japanese": "イカの塩漬け",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 126,
+                    "hougen": "いちゃんだ",
+                    "japanese": "ただ",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 127,
+                    "hougen": "いちゅく",
+                    "japanese": "従兄弟",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 128,
+                    "hougen": "いちゅた",
+                    "japanese": "ちょっとの間",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 129,
+                    "hougen": "いちゅび",
+                    "japanese": "イチゴ",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 130,
+                    "hougen": "いちぇー　かじ",
+                    "japanese": "出逢いの悪霊",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 131,
+                    "hougen": "いちゅん",
+                    "japanese": "行く",
+                    "category": "動詞",
+                    "usage_example": "いかん"
+                },
+                {
+                    "id": 132,
+                    "hougen": "いっさん",
+                    "japanese": "走って",
+                    "category": "動詞"
+                },
+                {
+                    "id": 133,
+                    "hougen": "いっそー",
+                    "japanese": "普段",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 134,
+                    "hougen": "いっそー　なーでぃー／ちび　なーでぃー",
+                    "japanese": "残らず",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 135,
+                    "hougen": "いったー　はらー",
+                    "japanese": "あなたたちの側",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 136,
+                    "hougen": "いっとぅがよー",
+                    "japanese": "おはじき",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 137,
+                    "hougen": "いっとぅち",
+                    "japanese": "片時",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 138,
+                    "hougen": "いとぅいん",
+                    "japanese": "嫌がる",
+                    "category": "動詞",
+                    "usage_example": "いとぅらん"
+                },
+                {
+                    "id": 139,
+                    "hougen": "いなか　んちゅ",
+                    "japanese": "田舎（出身の）者",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 140,
+                    "hougen": "いなむどぅち",
+                    "japanese": "猪料理",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 141,
+                    "hougen": "いばいん",
+                    "japanese": "威張る",
+                    "category": "動詞"
+                },
+                {
+                    "id": 142,
+                    "hougen": "いば〜",
+                    "japanese": "狭",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 143,
+                    "hougen": "いば　どぅくる",
+                    "japanese": "密集している所",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 144,
+                    "hougen": "いばいぬ　みー",
+                    "japanese": "狭苦しいところ",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 145,
+                    "hougen": "いま",
+                    "japanese": "新鮮なもの",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 146,
+                    "hougen": "いみ",
+                    "japanese": "夢",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 147,
+                    "hougen": "いみ　あき",
+                    "japanese": "忌み明け",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 148,
+                    "hougen": "いみーん",
+                    "japanese": "催促する",
+                    "category": "動詞",
+                    "usage_example": "いみらん"
+                },
+                {
+                    "id": 149,
+                    "hougen": "いみ　すん",
+                    "japanese": "量が増す",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 150,
+                    "hougen": "いめんしぇーん",
+                    "japanese": "いらっしゃる",
+                    "category": "動詞",
+                    "usage_example": "いめんそーらん"
+                },
+                {
+                    "id": 151,
+                    "hougen": "いめんしぇーびーん",
+                    "japanese": "いらっしゃる",
+                    "category": "動詞",
+                    "usage_example": "いめんしぇーびらん"
+                },
+                {
+                    "id": 152,
+                    "hougen": "いゆ",
+                    "japanese": "魚",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 153,
+                    "hougen": "いゆぬ　みー",
+                    "japanese": "魚の目",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 154,
+                    "hougen": "いらーすん",
+                    "japanese": "一時立て替えて貸す",
+                    "category": "動詞",
+                    "usage_example": "いらーさん"
+                },
+                {
+                    "id": 155,
+                    "hougen": "いらいん",
+                    "japanese": "一時立て替えて借りる",
+                    "category": "動詞",
+                    "usage_example": "いららん"
+                },
+                {
+                    "id": 156,
+                    "hougen": "いらな",
+                    "japanese": "鎌",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 157,
+                    "hougen": "いらぶん",
+                    "japanese": "選ぶ",
+                    "category": "動詞",
+                    "usage_example": "いらばん"
+                },
+                {
+                    "id": 158,
+                    "hougen": "いりーん",
+                    "japanese": "入れる",
+                    "category": "動詞",
+                    "usage_example": "いりらん"
+                },
+                {
+                    "id": 159,
+                    "hougen": "いりち",
+                    "japanese": "鱗",
+                    "category": "身体に関する言葉"
+                },
+                {
+                    "id": 160,
+                    "hougen": "いりちゅん",
+                    "japanese": "炒める",
+                    "category": "動詞",
+                    "usage_example": "いりかん"
+                },
+                {
+                    "id": 161,
+                    "hougen": "いりめー",
+                    "japanese": "収入",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 162,
+                    "hougen": "いりゆー",
+                    "japanese": "必要",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 163,
+                    "hougen": "いりむくー",
+                    "japanese": "入り婿",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 164,
+                    "hougen": "いりわい",
+                    "japanese": "口論",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 165,
+                    "hougen": "いる",
+                    "japanese": "色",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 166,
+                    "hougen": "いるみー　わかすん",
+                    "japanese": "選り分ける",
+                    "category": "動詞",
+                    "usage_example": "いるみーわかさん"
+                },
+                {
+                    "id": 167,
+                    "hougen": "いれーいん",
+                    "japanese": "答える",
+                    "category": "動詞"
+                },
+                {
+                    "id": 168,
+                    "hougen": "いん",
+                    "japanese": "犬",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 169,
+                    "hougen": "うい",
+                    "japanese": "ウリ",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 170,
+                    "hougen": "ういん",
+                    "japanese": "売る",
+                    "category": "動詞",
+                    "usage_example": "うらん"
+                },
+                {
+                    "id": 171,
+                    "hougen": "ういん",
+                    "japanese": "織る",
+                    "category": "動詞",
+                    "usage_example": "うらん"
+                },
+                {
+                    "id": 172,
+                    "hougen": "うーいん",
+                    "japanese": "追う",
+                    "category": "動詞",
+                    "usage_example": "うーたん"
+                },
+                {
+                    "id": 173,
+                    "hougen": "うーいん",
+                    "japanese": "負う",
+                    "category": "動詞",
+                    "usage_example": "うーらん"
+                },
+                {
+                    "id": 174,
+                    "hougen": "うーく",
+                    "japanese": "奥",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 175,
+                    "hougen": "うーくい",
+                    "japanese": "お送り",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 176,
+                    "hougen": "うーぐとぅ",
+                    "japanese": "ありがたいこと",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 177,
+                    "hougen": "うーさり　あーさり　すん",
+                    "japanese": "ぺこぺこする",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 178,
+                    "hougen": "うーし",
+                    "japanese": "臼",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 179,
+                    "hougen": "うーしーん",
+                    "japanese": "負わせる",
+                    "category": "動詞",
+                    "usage_example": "うーしたん"
+                },
+                {
+                    "id": 180,
+                    "hougen": "うーすん",
+                    "japanese": "負わす",
+                    "category": "動詞",
+                    "usage_example": "うーさん"
+                },
+                {
+                    "id": 181,
+                    "hougen": "うーちるがいん",
+                    "japanese": "すっかり浸透する",
+                    "category": "動詞",
+                    "usage_example": "うーちるがたん"
+                },
+                {
+                    "id": 182,
+                    "hougen": "うーちりばんた",
+                    "japanese": "断崖絶壁",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 183,
+                    "hougen": "うーとーとぅ　すん",
+                    "japanese": "お祈りする",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 184,
+                    "hougen": "うーばんばらー　すん",
+                    "japanese": "がらんとしている",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 185,
+                    "hougen": "うーび",
+                    "japanese": "帯",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 186,
+                    "hougen": "うーふぁ",
+                    "japanese": "おんぶ",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 187,
+                    "hougen": "うーふー",
+                    "japanese": "敬語",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 188,
+                    "hougen": "うーまくー",
+                    "japanese": "うーまく",
+                    "category": "形容詞",
+                    "usage_example": "しっかり者"
+                },
+                {
+                    "id": 189,
+                    "hougen": "うかきぶしぇー",
+                    "japanese": "お治めになること",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 190,
+                    "hougen": "うかじゃい　かび",
+                    "japanese": "祭壇に供える紙",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 191,
+                    "hougen": "うかぢ",
+                    "japanese": "おかげ",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 192,
+                    "hougen": "うかっとぅー",
+                    "japanese": "うっかり者",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 193,
+                    "hougen": "うかみがなしー",
+                    "japanese": "神様",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 194,
+                    "hougen": "うきーん",
+                    "japanese": "浮かべる",
+                    "category": "動詞",
+                    "usage_example": "うかさん"
+                },
+                {
+                    "id": 195,
+                    "hougen": "うきーん",
+                    "japanese": "起きる",
+                    "category": "動詞",
+                    "usage_example": "うきらん"
+                },
+                {
+                    "id": 196,
+                    "hougen": "うきーん",
+                    "japanese": "受ける",
+                    "category": "動詞",
+                    "usage_example": "うきたん"
+                },
+                {
+                    "id": 197,
+                    "hougen": "うくいん",
+                    "japanese": "送る",
+                    "category": "動詞",
+                    "usage_example": "うくらん"
+                },
+                {
+                    "id": 198,
+                    "hougen": "うぐしく",
+                    "japanese": "首里城",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 199,
+                    "hougen": "うくすん",
+                    "japanese": "起こす",
+                    "category": "動詞",
+                    "usage_example": "うくさん"
+                },
+                {
+                    "id": 200,
+                    "hougen": "うくすん",
+                    "japanese": "興す",
+                    "category": "動詞",
+                    "usage_example": "うくさん"
+                },    
+                {
+                    "id": 201,
+                    "hougen": "うくりーん",
+                    "japanese": "初めて起こる",
+                    "category": "日常会話",
+                    "usage_example": "うくららん"
+                },
+                {
+                    "id": 202,
+                    "hougen": "うぐりーん",
+                    "japanese": "再発する",
+                    "category": "日常会話",
+                    "usage_example": "うぐららん"
+                },
+                {
+                    "id": 203,
+                    "hougen": "うくりーん",
+                    "japanese": "遅れる",
+                    "category": "日常会話",
+                    "usage_example": "うくららん"
+                } ,
+                {
+                    "id": 204,
+                    "hougen": "うくでぃ",
+                    "japanese": "神人",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 205,
+                    "hougen": "うけー（めー）",
+                    "japanese": "お粥",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 206,
+                    "hougen": "うこー",
+                    "japanese": "お線香",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 207,
+                    "hougen": "うこーる",
+                    "japanese": "香炉",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 208,
+                    "hougen": "うぐゎん",
+                    "japanese": "祈願",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 209,
+                    "hougen": "うさーいん",
+                    "japanese": "合わさる",
+                    "category": "日常会話",
+                    "usage_example": "うさーらん"
+                },
+                {
+                    "id": 210,
+                    "hougen": "うさーすん",
+                    "japanese": "合わす",
+                    "category": "日常会話",
+                    "usage_example": "うさーちゃん"
+                },
+                {
+                    "id": 211,
+                    "hougen": "うさーりーん",
+                    "japanese": "襲われる",
+                    "category": "日常会話",
+                    "usage_example": "うさーりらん"
+                },
+                {
+                    "id": 212,
+                    "hougen": "うさがいん",
+                    "japanese": "いただく",
+                    "category": "日常会話",
+                    "usage_example": "うさがらん"
+                },
+                {
+                    "id": 213,
+                    "hougen": "うさきー（なー）",
+                    "japanese": "そんなにたくさん",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 214,
+                    "hougen": "うさぢ",
+                    "japanese": "ウサギ",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 215,
+                    "hougen": "うさんでー",
+                    "japanese": "供え物をさげたもの",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 216,
+                    "hougen": "うし",
+                    "japanese": "牛",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 217,
+                    "hougen": "うしーまーしー",
+                    "japanese": "順々にまわしすこと",
+                    "category": "日常会話"
+                },
+                {
+                    "id": 218,
+                    "hougen": "うしーみー",
+                    "japanese": "清明祭",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 219,
+                    "hougen": "うじーん",
+                    "japanese": "恐れをなす",
+                    "category": "日常会話",
+                    "usage_example": "うじたん"
+                },
+                {
+                    "id": 220,
+                    "hougen": "うしぇーいん",
+                    "japanese": "ばかにする",
+                    "category": "日常会話",
+                    "usage_example": "うしぇーらん"
+                },
+                {
+                    "id": 221,
+                    "hougen": "うし〜",
+                    "japanese": "押し",
+                    "category": "動詞"
+                },
+                {
+                    "id": 222,
+                    "hougen": "うしざし",
+                    "japanese": "かんざしの一種",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 223,
+                    "hougen": "うしでーく",
+                    "japanese": "臼太鼓",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 224,
+                    "hougen": "うじみーん",
+                    "japanese": "埋める",
+                    "category": "動詞",
+                    "usage_example": "うじみらん"
+                },
+                {
+                    "id": 225,
+                    "hougen": "うしる",
+                    "japanese": "おつゆ",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 226,
+                    "hougen": "うしる　くぶー",
+                    "japanese": "後頭頸部",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 227,
+                    "hougen": "うじゃさー",
+                    "japanese": "おじさん",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 228,
+                    "hougen": "うじゅますん",
+                    "japanese": "目を醒させる",
+                    "category": "動詞",
+                    "usage_example": "うじゅまさん"
+                },
+                {
+                    "id": 229,
+                    "hougen": "うじゅむん",
+                    "japanese": "目を醒す",
+                    "category": "動詞",
+                    "usage_example": "うじゅまん"
+                },
+                {
+                    "id": 230,
+                    "hougen": "うしんちー",
+                    "japanese": "着物の前の端を腰巻きの紐の内側に押し込むこと",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 231,
+                    "hougen": "うすめー",
+                    "japanese": "おじいさん（平民）",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 232,
+                    "hougen": "うすりーん",
+                    "japanese": "敬う",
+                    "category": "動詞",
+                    "usage_example": "うすりらん"
+                },
+                {
+                    "id": 233,
+                    "hougen": "うすあかがい",
+                    "japanese": "薄明かり",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 234,
+                    "hougen": "うすく",
+                    "japanese": "あこう",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 235,
+                    "hougen": "うすでー",
+                    "japanese": "お祝儀",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 236,
+                    "hougen": "うすん",
+                    "japanese": "押す",
+                    "category": "動詞",
+                    "usage_example": "うさん"
+                },
+                {
+                    "id": 237,
+                    "hougen": "うすいん",
+                    "japanese": "かぶせる",
+                    "category": "動詞",
+                    "usage_example": "うすたん"
+                },
+                {
+                    "id": 238,
+                    "hougen": "うすばすん",
+                    "japanese": "伏せる",
+                    "category": "動詞",
+                    "usage_example": "うすばさん"
+                },
+                {
+                    "id": 239,
+                    "hougen": "うた",
+                    "japanese": "歌",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 241,
+                    "hougen": "うたき",
+                    "japanese": "御嶽",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 242,
+                    "hougen": "うたとぅくる",
+                    "japanese": "お二人様",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 243,
+                    "hougen": "うたびみしぇーん",
+                    "japanese": "いただく",
+                    "category": "動詞",
+                    "usage_example": "うたびみそーらん"
+                },
+                {
+                    "id": 244,
+                    "hougen": "うち〜",
+                    "japanese": "すっかり",
+                    "category": "副詞"
+                },
+                {
+                    "id": 245,
+                    "hougen": "うち",
+                    "japanese": "内",
+                    "category": "場所"
+                },
+                {
+                    "id": 246,
+                    "hougen": "うちーん",
+                    "japanese": "映る",
+                    "category": "動詞",
+                    "usage_example": "うちたん"
+                },
+                {
+                    "id": 247,
+                    "hougen": "うち　かび",
+                    "japanese": "紙銭",
+                    "category": "物"
+                },
+                {
+                    "id": 248,
+                    "hougen": "うちきーん",
+                    "japanese": "置く",
+                    "category": "動詞",
+                    "usage_example": "うちきらん"
+                },
+                {
+                    "id": 249,
+                    "hougen": "うちくむん",
+                    "japanese": "雨が屋内に降り込む",
+                    "category": "動詞",
+                    "usage_example": "うちくまん"
+                },
+                {
+                    "id": 250,
+                    "hougen": "うちけー　さりやー",
+                    "japanese": "使いっ走り",
+                    "category": "日常会話"
+                },
+
+   
+                {
+                    "id": 251,
+                    "hougen": "うちちゅー（ぬ）　めー／とーとーがなしーめー",
+                    "japanese": "お月様",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 252,
+                    "hougen": "うちなー　ぐち",
+                    "japanese": "沖縄語",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 253,
+                    "hougen": "うちなー　ゆー",
+                    "japanese": "沖縄世",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 254,
+                    "hougen": "うちながにー",
+                    "japanese": "肩ロース",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 255,
+                    "hougen": "うちなすん",
+                    "japanese": "済ます",
+                    "category": "動詞",
+                    "usage_example": "うちなさん"
+                },
+                {
+                    "id": 256,
+                    "hougen": "うちゃいん",
+                    "japanese": "似合う",
+                    "category": "動詞",
+                    "usage_example": "うちゃらん"
+                },
+                {
+                    "id": 257,
+                    "hougen": "うちゃたい　かなたい　すん",
+                    "japanese": "たがいによく似合う",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 258,
+                    "hougen": "うちゃーすん",
+                    "japanese": "打ち合わす",
+                    "category": "協力する",
+                    "usage_example": "うちゃーちゃん"
+                },
+                {
+                    "id": 259,
+                    "hougen": "うちゃがいん",
+                    "japanese": "見違える",
+                    "category": "動詞",
+                    "usage_example": "うちゃがらん"
+                },
+                {
+                    "id": 260,
+                    "hougen": "うちゃぎーん",
+                    "japanese": "上に向く",
+                    "category": "動詞",
+                    "usage_example": "うちゃぎらん"
+                },
+                {
+                    "id": 261,
+                    "hougen": "うちゃとー　みんとー",
+                    "japanese": "お茶とお水のお供え",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 262,
+                    "hougen": "うちゃ　ふかしぇー",
+                    "japanese": "お茶会",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 263,
+                    "hougen": "うちゃく",
+                    "japanese": "お客",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 264,
+                    "hougen": "うちゅくぃー",
+                    "japanese": "ふろしき",
+                    "category": "物"
+                },
+                {
+                    "id": 265,
+                    "hougen": "うちゅすん",
+                    "japanese": "映す",
+                    "category": "動詞",
+                    "usage_example": "うちゅちゃん"
+                },
+                {
+                    "id": 266,
+                    "hougen": "うちゅん",
+                    "japanese": "打つ",
+                    "category": "動詞",
+                    "usage_example": "うたん"
+                },
+                {
+                    "id": 267,
+                    "hougen": "うちゅん",
+                    "japanese": "浮く",
+                    "category": "動詞",
+                    "usage_example": "うかん"
+                },
+                {
+                    "id": 268,
+                    "hougen": "うちぇー　かねー　すん",
+                    "japanese": "兼ね備える",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 269,
+                    "hougen": "うちぇーいみしぇーん",
+                    "japanese": "おいで遊ばす",
+                    "category": "動詞",
+                    "usage_example": "うちぇーいみそーらん"
+                },
+                {
+                    "id": 270,
+                    "hougen": "うちり　びー",
+                    "japanese": "おき火",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 271,
+                    "hougen": "うてぃーん",
+                    "japanese": "落ちる",
+                    "category": "動詞",
+                    "usage_example": "うてぃらん"
+                },
+                {
+                    "id": 272,
+                    "hougen": "うっか",
+                    "japanese": "負債",
+                    "category": "物"
+                },
+                {
+                    "id": 273,
+                    "hougen": "うっけーりーん",
+                    "japanese": "転ぶ",
+                    "category": "動詞",
+                    "usage_example": "うっけーりたん"
+                },
+                {
+                    "id": 274,
+                    "hougen": "うっけーらすん",
+                    "japanese": "ひっくり返す",
+                    "category": "動詞",
+                    "usage_example": "うっけーらさん"
+                },
+                {
+                    "id": 275,
+                    "hougen": "うっくるぶん",
+                    "japanese": "転倒する",
+                    "category": "動詞",
+                    "usage_example": "うっくるばん"
+                },
+                {
+                    "id": 276,
+                    "hougen": "うっさ〜",
+                    "japanese": "嬉しさ",
+                    "category": "感情"
+                },
+                {
+                    "id": 277,
+                    "hougen": "うったー",
+                    "japanese": "その人たち",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 278,
+                    "hougen": "うっちゃかいん",
+                    "japanese": "よりかかる",
+                    "category": "動詞",
+                    "usage_example": "うっちゃかたん"
+                },
+                {
+                    "id": 279,
+                    "hougen": "うっちゃんぎーん",
+                    "japanese": "放り出す",
+                    "category": "動詞",
+                    "usage_example": "うっちゃんぎたん"
+                },
+                {
+                    "id": 280,
+                    "hougen": "うっちぇーいん",
+                    "japanese": "裏返る",
+                    "category": "動詞",
+                    "usage_example": "うっちぇーらん"
+                },
+                {
+                    "id": 281,
+                    "hougen": "うっちぇーすん",
+                    "japanese": "裏返す",
+                    "category": "動詞",
+                    "usage_example": "うっちぇーさん"
+                },
+                {
+                    "id": 282,
+                    "hougen": "うっちん",
+                    "japanese": "ウコン",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 283,
+                    "hougen": "うってーいん",
+                    "japanese": "訴える",
+                    "category": "動詞",
+                    "usage_example": "うってーてぃ"
+                },
+                {
+                    "id": 284,
+                    "hougen": "うっとぅ",
+                    "japanese": "年下",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 285,
+                    "hougen": "うっとぅばすん",
+                    "japanese": "吹き飛ばす",
+                    "category": "動詞",
+                    "usage_example": "うっとぅばさん"
+                },
+                {
+                    "id": 286,
+                    "hougen": "うっぴ",
+                    "japanese": "それだけの大きさ",
+                    "category": "物"
+                },
+                {
+                    "id": 287,
+                    "hougen": "うてぃちち",
+                    "japanese": "落ち着き",
+                    "category": "感情"
+                },
+                {
+                    "id": 288,
+                    "hougen": "うでぃ　まっくゎ",
+                    "japanese": "腕枕",
+                    "category": "物"
+                },
+                {
+                    "id": 289,
+                    "hougen": "うてぃら　めー",
+                    "japanese": "拝所参り",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 290,
+                    "hougen": "うとぅ",
+                    "japanese": "音",
+                    "category": "自然や地理に関連する言葉",
+                    "usage_example": "評判"
+                },
+                {
+                    "id": 291,
+                    "hougen": "うとぅいむち",
+                    "japanese": "接待",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 292,
+                    "hougen": "うどぅきーん",
+                    "japanese": "商売で失敗する",
+                    "category": "動詞",
+                    "usage_example": "うどぅきらん"
+                },
+                {
+                    "id": 293,
+                    "hougen": "うとぅげー　なんどぅるー",
+                    "japanese": "顎がツルツルしている者",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 294,
+                    "hougen": "うとぅすん",
+                    "japanese": "移す",
+                    "category": "動詞",
+                    "usage_example": "うとぅさん"
+                },
+                {
+                    "id": 295,
+                    "hougen": "うとぅすん",
+                    "japanese": "落とす",
+                    "category": "動詞",
+                    "usage_example": "うとぅさん"
+                },
+                {
+                    "id": 296,
+                    "hougen": "うどぅるちゅん",
+                    "japanese": "驚く",
+                    "category": "動詞",
+                    "usage_example": "うどぅるかん"
+                },
+                {
+                    "id": 297,
+                    "hougen": "うどぅるかすん",
+                    "japanese": "驚かす",
+                    "category": "動詞",
+                    "usage_example": "うどぅるかさん"
+                },
+                {
+                    "id": 298,
+                    "hougen": "う〜",
+                    "japanese": "中称の指示詞",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 299,
+                    "hougen": "う　なぎー",
+                    "japanese": "それぐらいの長さ",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 300,
+                    "hougen": "うはち",
+                    "japanese": "お初",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 301,
+                    "hougen": "うびーん",
+                    "japanese": "憶える",
+                    "category": "動詞",
+                    "usage_example": "うびらん"
+                },
+                {
+                    "id": 302,
+                    "hougen": "うびーなでぃー",
+                    "japanese": "水撫で",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 303,
+                    "hougen": "うびらじ　ぐとぅ",
+                    "japanese": "不意の出来事",
+                    "category": "感情"
+                },
+                {
+                    "id": 304,
+                    "hougen": "うぶく",
+                    "japanese": "神仏に供えるご飯",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 305,
+                    "hougen": "うふ〜",
+                    "japanese": "多",
+                    "category": "形容詞"
+                },
+                {
+                    "id": 306,
+                    "hougen": "うぶん　にぢり",
+                    "japanese": "握り飯",
+                    "category": "食事・買い物関連"
+                },
+                {
+                    "id": 307,
+                    "hougen": "うぶちだん",
+                    "japanese": "お仏壇",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 308,
+                    "hougen": "うまちー",
+                    "japanese": "農耕のお祭り",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 309,
+                    "hougen": "うまんちゅ",
+                    "japanese": "多くの人",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 310,
+                    "hougen": "うみ〜",
+                    "japanese": "〜様",
+                    "category": "敬称"
+                },
+                {
+                    "id": 311,
+                    "hougen": "うみ",
+                    "japanese": "海",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 312,
+                    "hougen": "うみかきーん",
+                    "japanese": "お目にかける",
+                    "category": "敬語",
+                    "usage_example": "うみかきたん"
+                },
+                {
+                    "id": 313,
+                    "hougen": "うむいん",
+                    "japanese": "思う",
+                    "category": "感情",
+                    "usage_example": "うむらん"
+                },
+                {
+                    "id": 314,
+                    "hougen": "うむてぃ",
+                    "japanese": "表",
+                    "category": "方向や位置に関する言葉"
+                },
+                {
+                    "id": 315,
+                    "hougen": "うむる　うそーし",
+                    "japanese": "おもろ御そうし",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 316,
+                    "hougen": "うめーし",
+                    "japanese": "めーし",
+                    "category": "食事・買い物関連",
+                    "usage_example": "箸"
+                },
+                {
+                    "id": 317,
+                    "hougen": "うや",
+                    "japanese": "親",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 318,
+                    "hougen": "うやぎー",
+                    "japanese": "お祝いの金銭や物資の援助",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 319,
+                    "hougen": "うゆばん",
+                    "japanese": "及ばない",
+                    "category": "動詞"
+                },
+                {
+                    "id": 320,
+                    "hougen": "うゆうぇー／うーうぇー",
+                    "japanese": "お祝い",
+                    "category": "文化・伝統に関する単語"
+                },
+                {
+                    "id": 321,
+                    "hougen": "うら",
+                    "japanese": "裏",
+                    "category": "方向や位置に関する言葉"
+                },
+                {
+                    "id": 322,
+                    "hougen": "うらーきーん",
+                    "japanese": "水に浸す",
+                    "category": "動詞",
+                    "usage_example": "うらきらん"
+                },
+                {
+                    "id": 323,
+                    "hougen": "うらんだー",
+                    "japanese": "西洋人",
+                    "category": "家族や人に関する言葉"
+                },
+                {
+                    "id": 324,
+                    "hougen": "うり　さい／たい",
+                    "japanese": "ほら（目上に）",
+                    "category": "感嘆",
+                    "usage_example": "ゆぇーっ〈ほら（目下に）〉"
+                },
+                {
+                    "id": 325,
+                    "hougen": "うりーっさ",
+                    "japanese": "うり　ひゃー",
+                    "category": "指示語"
+                },
+                {
+                    "id": 326,
+                    "hougen": "うり／あり／くり",
+                    "japanese": "それ／あれ／これ",
+                    "category": "指示語"
+                },
+                {
+                    "id": 327,
+                    "hougen": "うりかー／ありかー／くりかー",
+                    "japanese": "その辺り／あの辺り／この辺り",
+                    "category": "方向や位置に関する言葉"
+                },
+                {
+                    "id": 328,
+                    "hougen": "っんまかー",
+                    "japanese": "その辺り",
+                    "category": "方向や位置に関する言葉"
+                },
+                {
+                    "id": 329,
+                    "hougen": "うりーん",
+                    "japanese": "降りる",
+                    "category": "動詞",
+                    "usage_example": "うりらん"
+                },
+                {
+                    "id": 330,
+                    "hougen": "うりーん",
+                    "japanese": "売れる",
+                    "category": "動詞",
+                    "usage_example": "うりらん"
+                },
+                {
+                    "id": 331,
+                    "hougen": "うりー",
+                    "japanese": "潤い",
+                    "category": "自然や地理に関連する言葉"
+                },
+                {
+                    "id": 332,
+                    "hougen": "うりじん",
+                    "japanese": "旧暦2〜3月",
+                    "category": "時間や暦に関する言葉"
+                },
+                {
+                    "id": 333,
+                    "hougen": "うる",
+                    "japanese": "砂",
+                    "category": "自然や地理に関連する言葉",
+                    "usage_example": "珊瑚の骨軸"
+                },
+                {
+                    "id": 334,
+                    "hougen": "うるすん",
+                    "japanese": "下ろす",
+                    "category": "動詞",
+                    "usage_example": "うるさん"
+                },
+                {
+                    "id": 335,
+                    "hougen": "うるにー　なまにー　すん",
+                    "japanese": "半煮えにする",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 336,
+                    "hougen": "〜うるみ",
+                    "japanese": "〜頃",
+                    "category": "時間や暦に関する言葉"
+                },
+                {
+                    "id": 337,
+                    "hougen": "うわいん",
+                    "japanese": "終わる",
+                    "category": "動詞",
+                    "usage_example": "うわらん"
+                },
+                {
+                    "id": 338,
+                    "hougen": "うんけー　すん",
+                    "japanese": "お迎えする",
+                    "category": "動詞",
+                    "usage_example": "〜さん"
+                },
+                {
+                    "id": 339,
+                    "hougen": "うんじゅ",
+                    "japanese": "あなた様",
+                    "category": "敬称"
+                },
+                {
+                    "id": 340,
+                    "hougen": "うんち／ぬんち／みゅんち",
+                    "japanese": "お顔",
+                    "category": "敬称"
+                },
+
+  
+                
+                    {
+                        "id": 341,
+                        "hougen": "うんちょーび／ぬんちょーび／みゅんちょーび",
+                        "japanese": "髪の敬称",
+                        "category": "家族や人に関する言葉"
+                    },
+                    {
+                        "id": 342,
+                        "hougen": "うんちぇー　すん",
+                        "japanese": "お借りする",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 343,
+                        "hougen": "うんちけー　する",
+                        "japanese": "案内",
+                        "category": "観光・道案内"
+                    },
+                    {
+                        "id": 344,
+                        "hougen": "うんぬかゆん",
+                        "japanese": "お聞きになる",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 345,
+                        "hougen": "うんぬきーん",
+                        "japanese": "申し上げる",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 346,
+                        "hougen": "えーじ",
+                        "japanese": "合図",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 347,
+                        "hougen": "えーじゅー",
+                        "japanese": "同僚",
+                        "category": "家族や人に関する言葉"
+                    },
+                    {
+                        "id": 348,
+                        "hougen": "えーすん",
+                        "japanese": "潰す",
+                        "category": "動詞"
+                    },
+                    {
+                        "id": 349,
+                        "hougen": "えーてぃ",
+                        "japanese": "相手",
+                        "category": "家族や人に関する言葉"
+                    },
+                    {
+                        "id": 350,
+                        "hougen": "えー　むん",
+                        "japanese": "和え物",
+                        "category": "食事・買い物関連"
+                    },
+                
+                    {
+                        "id": 351,
+                        "hougen": "おーいん",
+                        "japanese": "頭をあわせてけんかする",
+                        "category": "日常会話",
+                        "usage_example": "おーらん"
+                    },
+                    {
+                        "id": 352,
+                        "hougen": "おーじゃー",
+                        "japanese": "青",
+                        "category": "自然や地理に関連する言葉",
+                        "usage_example": "おーるー〈青色〉"
+                    },
+                    {
+                        "id": 353,
+                        "hougen": "おーぐらしん",
+                        "japanese": "真っ暗闇",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 354,
+                        "hougen": "おーだー",
+                        "japanese": "もっこ",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 355,
+                        "hougen": "おーちび",
+                        "japanese": "ビリ",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 356,
+                        "hougen": "おーぢゅん",
+                        "japanese": "扇ぐ",
+                        "category": "動詞",
+                        "usage_example": "おーがん"
+                    },
+                    {
+                        "id": 357,
+                        "hougen": "おーとー",
+                        "japanese": "ミカンの一種",
+                        "category": "食事・買い物関連"
+                    },
+                    {
+                        "id": 358,
+                        "hougen": "おーふぃじゅる　かんじゃー",
+                        "japanese": "寒々とした霊気",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 359,
+                        "hougen": "かー",
+                        "japanese": "井戸",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 360,
+                        "hougen": "かー",
+                        "japanese": "皮",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 361,
+                        "hougen": "がー",
+                        "japanese": "意地",
+                        "category": "家族や人に関する言葉"
+                    },
+                    {
+                        "id": 362,
+                        "hougen": "かーがー",
+                        "japanese": "（水面",
+                        "category": "自然や地理に関連する言葉",
+                        "usage_example": "地面などに）映る影"
+                    },
+                    {
+                        "id": 363,
+                        "hougen": "かーぎ",
+                        "japanese": "容貌",
+                        "category": "家族や人に関する言葉",
+                        "usage_example": "陰"
+                    },
+                    {
+                        "id": 364,
+                        "hougen": "かーかすん",
+                        "japanese": "干す",
+                        "category": "動詞",
+                        "usage_example": "かーかちゃん"
+                    },
+                    {
+                        "id": 365,
+                        "hougen": "かーきー",
+                        "japanese": "指切りげんまん",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 366,
+                        "hougen": "かーきーん",
+                        "japanese": "乾く",
+                        "category": "動詞",
+                        "usage_example": "かーきたん"
+                    },
+                    {
+                        "id": 367,
+                        "hougen": "かーさ",
+                        "japanese": "広い葉",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 368,
+                        "hougen": "かーじ／かじ",
+                        "japanese": "たびに",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 369,
+                        "hougen": "かーたー",
+                        "japanese": "偏った",
+                        "category": "日常会話"
+                    },
+                    {
+                        "id": 370,
+                        "hougen": "かーちー",
+                        "japanese": "夏至",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 371,
+                        "hougen": "がーなー",
+                        "japanese": "たんこぶ",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 372,
+                        "hougen": "かーぶちー",
+                        "japanese": "ミカンの一種",
+                        "category": "食事・買い物関連"
+                    },
+                    {
+                        "id": 373,
+                        "hougen": "かーぶやー",
+                        "japanese": "コウモリ",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 374,
+                        "hougen": "かーみ",
+                        "japanese": "甕",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 375,
+                        "hougen": "かーみー",
+                        "japanese": "亀",
+                        "category": "自然や地理に関連する言葉"
+                    },
+                    {
+                        "id": 376,
+                        "hougen": "かーらちゅん",
+                        "japanese": "乾く",
+                        "category": "動詞",
+                        "usage_example": "かーらかん"
+                    },
+                    {
+                        "id": 377,
+                        "hougen": "かいん",
+                        "japanese": "借りる",
+                        "category": "動詞",
+                        "usage_example": "からん"
+                    },
+                    {
+                        "id": 378,
+                        "hougen": "かいん",
+                        "japanese": "苅る",
+                        "category": "動詞",
+                        "usage_example": "からん"
+                    },
+                    {
+                        "id": 379,
+                        "hougen": "かかいん",
+                        "japanese": "世話になる",
+                        "category": "日常会話",
+                        "usage_example": "かかたん"
+                    },
+                    {
+                        "id": 380,
+                        "hougen": "かかいん",
+                        "japanese": "詰め寄る",
+                        "category": "日常会話",
+                        "usage_example": "かかたん"
+                    },
+                    {
+                        "id": 381,
+                        "hougen": "かかじーん",
+                        "japanese": "かじる",
+                        "category": "動詞",
+                        "usage_example": "かかじらん"
+                    },
+                    {
+                        "id": 382,
+                        "hougen": "かかわい",
+                        "japanese": "かかわり",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 383,
+                        "hougen": "かかん",
+                        "japanese": "下裳",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 384,
+                        "hougen": "かきあーいん",
+                        "japanese": "間に合う",
+                        "category": "動詞",
+                        "usage_example": "かきあーらん"
+                    },
+                    {
+                        "id": 385,
+                        "hougen": "かきあーすん",
+                        "japanese": "間に合わす",
+                        "category": "動詞",
+                        "usage_example": "かきあーさん"
+                    },
+                    {
+                        "id": 386,
+                        "hougen": "かきーん",
+                        "japanese": "掛ける",
+                        "category": "動詞",
+                        "usage_example": "かきらん"
+                    },
+                    {
+                        "id": 387,
+                        "hougen": "かきーん",
+                        "japanese": "賭ける",
+                        "category": "動詞",
+                        "usage_example": "かきらん"
+                    },
+                    {
+                        "id": 388,
+                        "hougen": "かぎーん",
+                        "japanese": "欠席する",
+                        "category": "動詞",
+                        "usage_example": "かぎらん"
+                    },
+                    {
+                        "id": 389,
+                        "hougen": "かきむん",
+                        "japanese": "欠けたもの",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 390,
+                        "hougen": "かく",
+                        "japanese": "癌",
+                        "category": "難病"
+                    },
+                    {
+                        "id": 391,
+                        "hougen": "がく　ぶり",
+                        "japanese": "学問以外は何も知らない人",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 392,
+                        "hougen": "かくい",
+                        "japanese": "囲い",
+                        "category": "垣根"
+                    },
+                    {
+                        "id": 393,
+                        "hougen": "かくぐ　すん",
+                        "japanese": "大切にしまい込む",
+                        "category": "動詞",
+                        "usage_example": "〜さん"
+                    },
+                    {
+                        "id": 394,
+                        "hougen": "かくじ",
+                        "japanese": "下顎全体",
+                        "category": "名詞",
+                        "usage_example": "うとぅげー〈顎の尖った部分〉"
+                    },
+                    {
+                        "id": 395,
+                        "hougen": "かくすん",
+                        "japanese": "（他に知られないように）隠す",
+                        "category": "動詞",
+                        "usage_example": "かくさん"
+                    },
+                    {
+                        "id": 396,
+                        "hougen": "かくびち",
+                        "japanese": "とても好いもの",
+                        "category": "おいしいもの",
+                        "usage_example": "いい仲"
+                    },
+                    {
+                        "id": 397,
+                        "hougen": "かくむん",
+                        "japanese": "囲む",
+                        "category": "動詞"
+                    },
+                    {
+                        "id": 398,
+                        "hougen": "かくり　ぶし",
+                        "japanese": "人前ではその気配を見せない達人",
+                        "category": "名詞"
+                    },
+                    {
+                        "id": 399,
+                        "hougen": "かげーいん",
+                        "japanese": "支配する",
+                        "category": "動詞",
+                        "usage_example": "かげーらん"
+                    },
+                    {
+                        "id": 400,
+                        "hougen": "かさかさー",
+                        "japanese": "乾燥したさま",
+                        "category": "ごわごわしたさま"
+                    },
     {
       "id": 401,
       "hougen": "かさぎーん",
